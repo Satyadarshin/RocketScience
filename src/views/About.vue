@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>About the Rocket Science project</h1>
+    <p>This is a resource for people interested in SF as a genre of literature.</p>
   </div>
 </template>
