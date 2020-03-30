@@ -8,6 +8,39 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'app',
+  data() {
+    return {
+      hugoBestNovels: [],
+      nebulaBestNovels: []
+    }
+  },
+  components: {
+
+  },
+  computed: {
+
+  },
+  mounted() {
+    fetch(
+      '../data/hugo_award_novels.json', 
+      {
+        method: 'get'
+      },
+    )
+    .then((response) => response.json())
+    .then((jsonData) => {
+      this.hugoBestNovels = jsonData.results
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    })
+  }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
