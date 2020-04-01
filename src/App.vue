@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> | 
+      <router-link to="/about">About</router-link> |
       <router-link to="/authors">Authors</router-link>
     </div>
     <router-view/>
@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import novelsService from '@/services/novels-service';
+
 export default {
   name: 'app',
   data() {
@@ -25,19 +27,14 @@ export default {
 
   },
   mounted() {
-    fetch(
-      '../data/hugo_award_novels.json', 
-      {
-        method: 'get'
-      },
-    )
-    .then((response) => response.json())
-    .then((jsonData) => {
-      this.hugoBestNovels = jsonData.results
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    })
+    novelsService.getHugos()
+      .then((response) => {
+        this.hugoBestNovels = response.results
+        console.log(response);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      })
   }
 }
 </script>
