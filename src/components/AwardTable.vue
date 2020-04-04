@@ -1,20 +1,22 @@
 <template>
     <div>
         <tr 
-        v-for="(bestNovel, index) in bestNovels"
+        v-for="(award, index) in awards"
         :key="index"
         >
-            <td>{{ bestNovel.year }}</td>
-            <td>{{ bestNovel.author }}</td>
-            <td>{{ bestNovel.title}}</td>
+            <td>{{ award.year }}</td>
+            <td>{{ award.author }}</td>
+            <td>{{ award.title}}</td>
         </tr>
     </div>
 </template>
 
 <script>
 export default {
-    props: {
-        bestNovel: Object
+    data() {
+        return{
+            awards: ''
+        }
     }
 }
 </script>

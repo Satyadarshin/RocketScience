@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Authors from '../views/Authors.vue';
+import Awards from '../views/Awards.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/authors',
     name: 'Authors',
     component: Authors,
+  },
+  {
+    path: '/awards',
+    name: 'Awards',
+    component: Awards,
   },
 ];
 

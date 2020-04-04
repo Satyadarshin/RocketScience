@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> | 
-      <router-link to="/authors">Authors</router-link>
+      <router-link to="/authors">Authors</router-link> |
+      <router-link to="/awards">Awards</router-link>
     </div>
     <router-view/>
   </div>
@@ -12,33 +13,6 @@
 <script>
 export default {
   name: 'app',
-  data() {
-    return {
-      hugoBestNovels: [],
-      nebulaBestNovels: []
-    }
-  },
-  components: {
-
-  },
-  computed: {
-
-  },
-  mounted() {
-    fetch(
-      '../data/hugo_award_novels.json', 
-      {
-        method: 'get'
-      },
-    )
-    .then((response) => response.json())
-    .then((jsonData) => {
-      this.hugoBestNovels = jsonData.results
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    })
-  }
 }
 </script>
 
@@ -53,8 +27,8 @@ export default {
 
 #nav {
   padding: 30px;
-
-  a {
+  a { 
+    text-decoration: none;
     font-weight: bold;
     color: #2c3e50;
 
