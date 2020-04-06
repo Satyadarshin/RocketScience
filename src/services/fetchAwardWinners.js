@@ -1,8 +1,9 @@
 const fetchAwardWinners = (awardingBody) => {
-    fetch(`../data/${awardingBody}.json`)
+    console.log('bar')
+    fetch('@/data/' + awardingBody + '.json')
     .then((response) => response.json())
 }
 
 export default {
-    fetchAwardWinners
+   name: "fetchAwardWinners"
 }
