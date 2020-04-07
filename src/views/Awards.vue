@@ -16,8 +16,8 @@ export default {
         return {
             hugoAward: 'hugo_award',
             nebulaAward: 'nebula_award',
-            awardHistory: {},
-            displayCategory: {}
+            //displayCategory: {},
+            awardHistory: []
         }
     },
     props: {
@@ -28,7 +28,7 @@ export default {
             awardDataService.fetchAward(awardBody)
             .then((jsonData) => {
                 this.awardHistory = jsonData.results
-                this.displayCategory = this.awardHistory.extractCategory
+                console.log(this.awardHistory[0].extractCategory)
             })
             .catch((error) => {
                                 console.log( 'foo')
