@@ -16,6 +16,7 @@ export default {
         return {
             hugoAward: 'hugo_award',
             nebulaAward: 'nebula_award',
+            awardHistory: {},
             displayCategory: {}
         }
     },
@@ -23,12 +24,15 @@ export default {
         selectedAward: Object
     },
     methods: { 
-        viewAwardCategory(category) {
-            awardDataService.fetchAward(category)
+        viewAwardCategory(awardBody, extractCategory) {
+            awardDataService.fetchAward(awardBody)
             .then((jsonData) => {
-                this.displayCategory = jsonData.results
+                this.awardHistory = jsonData.results
+                this.displayCategory = this.awardHistory.extractCategory
             })
             .catch((error) => {
+                                console.log( 'foo')
+
                 console.error('Error:', error);
             })
         }
