@@ -28,7 +28,13 @@ export default {
             awardDataService.fetchAward(awardBody)
             .then((jsonData) => {
                 this.awardHistory = jsonData.results
-                console.log(this.awardHistory[0].extractCategory)
+                // This works:
+                this.selectedAward = this.awardHistory[0].bestNovel 
+                // But this doesn't:
+                // this.selectedAward = this.awardHistory[0].extractCategory 
+                // So I'm getting the suyntax wrong somehow?
+
+                console.log(this.awardHistory[0].bestNovel)
             })
             .catch((error) => {
                                 console.log( 'foo')
