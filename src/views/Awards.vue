@@ -3,7 +3,7 @@
         <h1>Science Fiction Literary Awards</h1>
         <button @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</button>
         <button @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</button>
-        <!-- <awardTable :selectedAward="displayCategory" /> -->
+        <app-award-table :selectedAward="displayCategory"></app-award-table>
     </div>
 </template>
 
@@ -16,35 +16,31 @@ export default {
         return {
             hugoAward: 'hugo_award',
             nebulaAward: 'nebula_award',
-            //displayCategory: {},
-            awardHistory: []
+            displayCategory: {},
         }
-    },
-    props: {
-        selectedAward: Object
     },
     methods: { 
         viewAwardCategory(awardBody, extractCategory) {
             awardDataService.fetchAward(awardBody)
             .then((jsonData) => {
-                this.awardHistory = jsonData.results
+                let awardHistory = jsonData.results
                 // This works:
-                this.selectedAward = this.awardHistory[0].bestNovel 
+                this.displayCategory = awardHistory[0].bestNovel 
+                console.log( typeof displayCategory)
                 // But this doesn't:
                 // this.selectedAward = this.awardHistory[0].extractCategory 
                 // So I'm getting the suyntax wrong somehow?
 
-                console.log(this.awardHistory[0].bestNovel)
+                console.log(this.displayCategory)
             })
             .catch((error) => {
-                                console.log( 'foo')
-
                 console.error('Error:', error);
             })
         }
     },
     components: {
-        awardTable
+        appAwardTable: awardTable
     }
 }
 </script>
+
