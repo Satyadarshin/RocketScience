@@ -1,9 +1,12 @@
 <template>
     <div>
         <h1>Science Fiction Literary Awards</h1>
+        <div id="award-category-selecto">
+
         <button @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</button>
         <button @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</button>
         <app-award-table :selectedAward="displayCategory"></app-award-table>
+        </div>
     </div>
 </template>
 
@@ -44,3 +47,8 @@ export default {
 }
 </script>
 
+<style scoped>
+#award-category-selctor {
+    display: flex;
+}
+</style>

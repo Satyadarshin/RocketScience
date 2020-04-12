@@ -1,14 +1,22 @@
 <template>
     <table>
         <caption>Your selected award category is the [Awarding Body] for [Award Category]</caption>
-       <tbody>
+        <thead>
+            <tr>
+                <th>Award Year</th>
+                <th>Author</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr 
             v-for="(award, index) in selectedAward"
             :key="index"
+            itemscope itemtype="http://schema.org/Book"
             >
                 <td>{{ award.year }}</td>
-                <td>{{ award.winner.author }}</td>
-                <td>{{ award.winner.title}}</td>
+                <td itemprop="author">{{ award.winner.author }}</td>
+                <td itemprop="name">{{ award.winner.title }}</td>
             </tr>
         </tbody>
     </table>
@@ -42,12 +50,15 @@ table {
     border-collapse: collapse;
     caption {
         padding: 1rem 0;
-        background-color: gray;
+        background-color: $table-caption;
         color: white
-    }
-    td { text-align: left;
+    } 
+    td, th { 
+        text-align: left;
         padding: .5rem 0;
-        border-bottom: 1px solid
+    }
+    td {
+        border-top: 1px solid $table-border;
     }
 }
 </style>
