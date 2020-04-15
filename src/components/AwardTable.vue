@@ -53,6 +53,9 @@ table {
         background-color: $table-caption;
         color: white
     } 
+    tr:nth-child(odd) {
+        background-color: $oil;
+    }
     td, th { 
         text-align: left;
         padding: .5rem 0;

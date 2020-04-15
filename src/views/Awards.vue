@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content">
         <h1>Science Fiction Literary Awards</h1>
         <div id="award-category-selecto">
 
@@ -27,14 +27,7 @@ export default {
             awardDataService.fetchAward(awardBody)
             .then((jsonData) => {
                 let awardHistory = jsonData.results
-                // This works:
-                this.displayCategory = awardHistory[0].bestNovel 
-                console.log( typeof displayCategory)
-                // But this doesn't:
-                // this.selectedAward = this.awardHistory[0].extractCategory 
-                // So I'm getting the suyntax wrong somehow?
-
-                console.log(this.displayCategory)
+                this.displayCategory = awardHistory[0][extractCategory] 
             })
             .catch((error) => {
                 console.error('Error:', error);

@@ -1,5 +1,5 @@
 <template>
-  <div class="authors">
+  <div class="authors content">
     <h1>Authors</h1>
     <p>This is a page to look for authors of SF works.</p>
   </div>

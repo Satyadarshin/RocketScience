@@ -7,12 +7,18 @@
       <router-link to="/awards">Awards</router-link>
     </div>
     <router-view/>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
+import footer from '@/components/Footer.vue'
+
 export default {
   name: 'app',
+  components: {
+    appFooter: footer
+  }
 }
 </script>
 
