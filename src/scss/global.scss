@@ -9,13 +9,17 @@ html, body {
     padding: 0;
   }
 
-    #app {display: flex; flex-direction: column;
+    #app {
+      display: flex; 
+      flex-direction: column;
         height: 100vh; 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
   .content {
-   flex: 1 0 auto;
+    max-width: 512px;
+    margin: 0 auto;
+    flex: 1 0 auto;
   }
   footer {
     flex-shrink: 0;

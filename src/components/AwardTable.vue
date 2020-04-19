@@ -1,11 +1,13 @@
 <template>
+<div>
     <table>
-        <caption>Your selected award category is the [Awarding Body] for [Award Category]</caption>
+        <caption v-if="selectedAward.length === 0">Choose an Award category</caption>
+        <caption v-else>Your selected award category is the <span>{{ who }}</span> for <span>{{ what }}</span></caption>
         <thead>
             <tr>
-                <th>Award Year</th>
-                <th>Author</th>
-                <th>Title</th>
+                <th @click="sortBy('year')">Award Year</th>
+                <th @click="sortBy('author')">Author</th>
+                <th @click="sortBy('title')">Title</th>
             </tr>
         </thead>
         <tbody>
@@ -20,24 +22,24 @@
             </tr>
         </tbody>
     </table>
+</div>
 </template>
 
 <script>
 export default {
+    data: () => {
+        return {
+            sortKey: 'year',
+            sortDirection: 'asc'
+        }
+    },
     props: {
-        selectedAward: {
-            type: Object,
-            default: function() {
-                return {
-                    selectedAward: {
-                        year: '2019',
-                        winner: {
-                            title: 'The Calculating Stars',
-                            author: 'Mary Robinnette Kowal'
-                        }
-                    }
-                }
-            }
+        who: String,
+        what: String,
+        selectedAward: Array
+    },
+    methods: {
+        sortBy: (sortkey) => {
         }
     }
 }
@@ -51,17 +53,23 @@ table {
     caption {
         padding: 1rem 0;
         background-color: $table-caption;
-        color: white
+        color:$white;
+        span {
+            text-transform: capitalize;
+        }
     } 
-    tr:nth-child(odd) {
-        background-color: $oil;
+    tr:nth-child(even) {
+        background-color: $lightgrey;
     }
     td, th { 
         text-align: left;
-        padding: .5rem 0;
+        padding: .5rem  0 .5rem .25rem;
     }
-    td {
-        border-top: 1px solid $table-border;
+    thead {
+        border-bottom: 1px solid $table-border;
+        th {
+            cursor: pointer
+        }
     }
 }
 </style>
