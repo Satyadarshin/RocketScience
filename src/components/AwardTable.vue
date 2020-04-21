@@ -5,9 +5,9 @@
         <caption v-else>Your selected award category is the <span>{{ who }}</span> for <span>{{ what }}</span></caption>
         <thead>
             <tr>
-                <th @click="sortBy('year')">Award Year</th>
-                <th @click="sortBy('author')">Author</th>
-                <th @click="sortBy('title')">Title</th>
+                <th v-for="column in columns">
+                    <a href="#" @click.prevent="sortBy('column')">{{ column }}</a>
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -30,7 +30,8 @@ export default {
     data: () => {
         return {
             sortKey: 'year',
-            sortDirection: 'asc'
+            sortDirection: 'asc',
+            columns: [] //create an array to contain the supplied array's keys to use as column headers
         }
     },
     props: {
@@ -40,6 +41,12 @@ export default {
     },
     methods: {
         sortBy: (sortkey) => {
+        }
+    },
+    computed: {
+        createHeaders() {
+            let test = this.selectedAward[0]
+            return this.columns = Object.keys(test)
         }
     }
 }
@@ -68,6 +75,11 @@ table {
     thead {
         border-bottom: 1px solid $table-border;
         th {
+            a {
+                text-decoration: none;
+                color: $oil;
+                text-transform: capitalize;
+            }
             cursor: pointer
         }
     }
