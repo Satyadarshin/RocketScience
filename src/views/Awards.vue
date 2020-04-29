@@ -26,6 +26,7 @@ export default {
     },
     methods: { 
         viewAwardCategory(awardBody, extractCategory) {
+            //Comment on the purpose of the regx
             this.awarder = awardBody.replace(/_/g, " ")
             this.category = extractCategory.replace(/([A-Z])/g, ' $1')
             awardDataService.fetchAward(awardBody)
