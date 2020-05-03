@@ -1,0 +1,1989 @@
+{ 
+"response_code": 0,
+"results": [
+    {
+      "id": 1000,
+      "name": "Frank Herbert",
+      "born": "08.10.1920",
+      "died": "11.02.1986",
+      "biography": "born in Tacoma, Washington, to Frank Patrick Herbert Sr. and Eileen (McCarthy) Herbert. Because of a poor home environment, he ran away from home in 1938 to live with an aunt and uncle in Salem, Oregon.[3] He enrolled in high school at Salem High School (now North Salem High School), where he graduated the next year.[3] In 1939 he lied about his age to get his first newspaper job at the Glendale Star.[4] Herbert then returned to Salem in 1940 where he worked for the Oregon Statesman newspaper (now Statesman Journal) in a variety of positions, including photographer.",
+      "website": ""
+    },
+    {
+      "id": 1001,
+      "name": "N. K. Jemisin",
+      "born": "19.09.1972",
+      "died": "",
+      "biography": "American science fiction and fantasy writer who has also worked as a counseling psychologist. Her fiction explores a wide variety of themes, including cultural conflict and oppression.[1][2] She has won several awards for her work, including the Locus Award. As of her August 2018 win, the three books of her Broken Earth series have made her the only author to have won the Hugo Award for Best Novel in three consecutive years.",
+      "website": "http://nkjemisin.com/"
+    },
+    {
+      "id": 1002,
+      "name": "Alexei Panshin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1003,
+      "name": "Charles Stross",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1004,
+      "name": "Robert J.Sawyer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1005,
+      "name": "A. A. Attanasio",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1006,
+      "name": "Ada Palmer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1007,
+      "name": "Alexei Panshin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1008,
+      "name": "Alfred Bester",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1009,
+      "name": "Algis Budrys",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1010,
+      "name": "an McDonald",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1011,
+      "name": "Andre Norton",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1012,
+      "name": "Ann Leckie",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1013,
+      "name": "Annalee Newitz",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1014,
+      "name": "Anne McCaffrey",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1015,
+      "name": "Arthur Byron Cover",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1016,
+      "name": "Arthur C. Clarke",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1017,
+      "name": "Avram Davidson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1018,
+      "name": "Barry N. Malzberg",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1019,
+      "name": "Becky Chambers",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1020,
+      "name": "Bob Shawn",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1021,
+      "name": "Brandon Sanderson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1022,
+      "name": "Brian Aldiss",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1023,
+      "name": "Bruce Sterling",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1024,
+      "name": "C. J. Cherryh",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1025,
+      "name": "C. L. Polk",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1026,
+      "name": "Caitlín R. Kiernan",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1027,
+      "name": "Carol Emshwiller",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1028,
+      "name": "Catherine Asaro",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1029,
+      "name": "Catherynne M.Valente",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1030,
+      "name": "Charles de Lint",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1031,
+      "name": "Charles E. Gannon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1032,
+      "name": "Charles Stross",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1033,
+      "name": "Charlie Jane Anders",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1034,
+      "name": "Cherie Priest",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1035,
+      "name": "Chester Anderson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1036,
+      "name": "China Miéville",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1037,
+      "name": "Christopher Barzak",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1038,
+      "name": "Christopher Priest",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1039,
+      "name": "Cixin Liu",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1040,
+      "name": "Clifford D.Simak",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1041,
+      "name": "Connie Willis",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1042,
+      "name": "Cordwainer Smith",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1043,
+      "name": "Cory Doctorow",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1044,
+      "name": "Cyril M.Kornbluth",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1045,
+      "name": "Dan Simmon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1046,
+      "name": "Dan Simmons",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1047,
+      "name": "Daniel F.Galouye",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1048,
+      "name": "Daniel Keyes",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1049,
+      "name": "Daryl Gregory",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1050,
+      "name": "David Brin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1051,
+      "name": "David G. Compton",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1052,
+      "name": "David Gerrold",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1053,
+      "name": "David J. Schwartz",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1054,
+      "name": "David Mitchell",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1055,
+      "name": "David R.Palmer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1056,
+      "name": "Donald Kingsbury",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1057,
+      "name": "Doug Beason",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1058,
+      "name": "E. L. Doctorow",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1059,
+      "name": "Edgar Pangborn",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1060,
+      "name": "Edward E.Smith",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1061,
+      "name": "Elizabeth Ann Scarborough",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1062,
+      "name": "Elizabeth Moon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1063,
+      "name": "Ellen Kushner",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1064,
+      "name": "Emma Bull",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1065,
+      "name": "Fonda Lee",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1066,
+      "name": "Fran Wilde",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1067,
+      "name": "Frederik Pohl",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1068,
+      "name": "Fritz Leiber",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1069,
+      "name": "G. C. Edmondson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1070,
+      "name": "Gardner Dozois",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1071,
+      "name": "Gene Wolfe",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1072,
+      "name": "Genevieve Valentine",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1073,
+      "name": "Geoff Ryman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1074,
+      "name": "Geoffrey A. Landis",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1075,
+      "name": "George Alec Effinger",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1076,
+      "name": "George R.R.Martin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1077,
+      "name": "George Turner",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1078,
+      "name": "Gordon R.Dickson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1079,
+      "name": "Gore Vidal",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1080,
+      "name": "Greg Bear",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1081,
+      "name": "Gregory Benford",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1082,
+      "name": "H.Beam Piper",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1083,
+      "name": "Hal Clement",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1084,
+      "name": "Harry Harrison",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1085,
+      "name": "Harry Turtledove",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1086,
+      "name": "Hayden Howard",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1087,
+      "name": "Helene Wecker",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1088,
+      "name": "Iain M.Banks",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1089,
+      "name": "Ian McDonald",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1090,
+      "name": "Ian Watson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1091,
+      "name": "Isaac Asimov",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1092,
+      "name": "Italo Calvino",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1093,
+      "name": "J.K.Rowling",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1094,
+      "name": "Jack Dann",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1095,
+      "name": "Jack McDevitt",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1096,
+      "name": "Jack Vance",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1097,
+      "name": "James Blish",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1098,
+      "name": "James H.Schmitz",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1099,
+      "name": "James K. Morrow",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1100,
+      "name": "James S.A.Corey",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1101,
+      "name": "James White",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1102,
+      "name": "Jane Yolen",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1103,
+      "name": "Jean Bruller",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1104,
+      "name": "Jeff VanderMeer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1105,
+      "name": "Jeffrey Carver",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1106,
+      "name": "Jeffrey Ford",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1107,
+      "name": "Jerry Pournelle",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1108,
+      "name": "Jim Butcher",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1109,
+      "name": "Jo Walton",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1110,
+      "name": "Jo Walton",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1111,
+      "name": "Joan D.Vinge",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1112,
+      "name": "Joanna Russ",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1113,
+      "name": "Joe Haldeman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1114,
+      "name": "John Barnes",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1115,
+      "name": "John Brunner",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1116,
+      "name": "John C. Wright",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1117,
+      "name": "John Crowley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1118,
+      "name": "John E. Stith",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1119,
+      "name": "John Kessel",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1120,
+      "name": "John Scalzi",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1121,
+      "name": "John Varley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1122,
+      "name": "Jonathan Lethem",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1123,
+      "name": "Julian May",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1124,
+      "name": "Kameron Hurley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1125,
+      "name": "Karen Joy Fowler",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1126,
+      "name": "Kate Elliott",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1127,
+      "name": "Kate Wilhelm",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1128,
+      "name": "Katherine Addison",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1129,
+      "name": "Katherine MacLean",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1130,
+      "name": "Kathleen Ann Goonan",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1131,
+      "name": "Keith Laumer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1132,
+      "name": "Kelley Eskridge",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1133,
+      "name": "Ken Liu",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1134,
+      "name": "Ken MacLeod",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1135,
+      "name": "Kevin J. Anderson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1136,
+      "name": "Kim Stanley Robinson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1137,
+      "name": "Kurt Vonnegut",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1138,
+      "name": "L.Ron Hubbard",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1139,
+      "name": "Lara Elena Donnelly",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1140,
+      "name": "Larry Correia",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1141,
+      "name": "Larry Niven",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1142,
+      "name": "Laura Anne Gilman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1143,
+      "name": "Lawrence M. Schoen",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1144,
+      "name": "Leigh Brackett",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1145,
+      "name": "Leigh Kennedy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1146,
+      "name": "Lewis Shiner",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1147,
+      "name": "Linda Nagata",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1148,
+      "name": "Joe Haldeman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1149,
+      "name": "Lois McMaster Bujold",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1150,
+      "name": "M. K. Hobson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1151,
+      "name": "Margaret Atwood",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1152,
+      "name": "Marion Zimmer Bradley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1153,
+      "name": "Mark Clifton, Frank Riley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1154,
+      "name": "Mark Phillips",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1155,
+      "name": "Marta Randall",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1156,
+      "name": "Martha Wells",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1157,
+      "name": "Mary Doria Russell",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1158,
+      "name": "Mary Robinette Kowal",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1159,
+      "name": "Maureen F. McHugh",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1160,
+      "name": "Michael Bishop",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1161,
+      "name": "Michael Chabon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1162,
+      "name": "Michael F.Flynn",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1163,
+      "name": "Michael P.Kube-McDowell",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1164,
+      "name": "Michael Swanwick",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1165,
+      "name": "Mike Resnick",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1166,
+      "name": "Mira Grant",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1167,
+      "name": "Mishell Baker",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1168,
+      "name": "Mur Lafferty",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1169,
+      "name": "Murray Leinster",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1170,
+      "name": "Nalo Hopkinson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1171,
+      "name": "Nalo Hopkinson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1172,
+      "name": "Nancy Kress",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1173,
+      "name": "Naomi Novik",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1174,
+      "name": "Neal Stephenson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1175,
+      "name": "Neil Gaiman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1176,
+      "name": "Nicola Griffith",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1177,
+      "name": "Nina Kiriki Hoffman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1178,
+      "name": "Nisi Shawl",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1179,
+      "name": "Nnedi Okorafor",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1180,
+      "name": "Norman Spinrad",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1181,
+      "name": "Octavia E. Butler",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1182,
+      "name": "Orson Scott Card",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1183,
+      "name": "Paolo Bacigalupi",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1184,
+      "name": "Pat Cadigan",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1185,
+      "name": "Pat Murphy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1186,
+      "name": "Patricia A.McKillip",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1187,
+      "name": "Paul Park",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1188,
+      "name": "Peter Watts",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1189,
+      "name": "Philip José Farmer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1190,
+      "name": "Philip K. Dick",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1191,
+      "name": "Piers Anthony",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1192,
+      "name": "Poul Anderson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1193,
+      "name": "R. A. Lafferty",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1194,
+      "name": "R. A. MacAvoy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1195,
+      "name": "R. F. Kuang",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1196,
+      "name": "R.A.Lafferty",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1197,
+      "name": "R.A.MacAvoy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1198,
+      "name": "Rachel Pollack",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1199,
+      "name": "Randall Garrett",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1200,
+      "name": "Rebecca Roanhorse",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1201,
+      "name": "Richard A. Lupoff",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1202,
+      "name": "Richard Bowes",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1203,
+      "name": "Robert A. Heinlein",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1204,
+      "name": "Robert A. Metzger",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1205,
+      "name": "Robert Charles Wilson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1206,
+      "name": "Robert J. Sawyer",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1207,
+      "name": "Robert Jordan",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1208,
+      "name": "Robert Sheckley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1209,
+      "name": "Robert Silverberg",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1210,
+      "name": "Robert Stallman",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1211,
+      "name": "Roger Zelazny",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1212,
+      "name": "Russell Hoban",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1213,
+      "name": "Saladin Ahmed",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1214,
+      "name": "Sam J. Miller",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1215,
+      "name": "Samuel R. Delany",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1216,
+      "name": "Sheri S.Tepper",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1217,
+      "name": "Sofia Samatar",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1218,
+      "name": "Stephen Baxter",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1219,
+      "name": "Susanna Clarke",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1220,
+      "name": "Suzy McKee Charnas",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1221,
+      "name": "T. J. Bass",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1222,
+      "name": "Tanith Lee",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1223,
+      "name": "Terry Carr",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1224,
+      "name": "Terry Pratchett",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1225,
+      "name": "Theodora Goss",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1226,
+      "name": "Theodore L. Thomas",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1227,
+      "name": "Theodore Sturgeon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1228,
+      "name": "Thomas Burnett Swann",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1229,
+      "name": "Thomas Disch",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1230,
+      "name": "Thomas M. Disch",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1231,
+      "name": "Thomas Pynchon",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1232,
+      "name": "Tim Powers",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1233,
+      "name": "Tina Connolly",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1234,
+      "name": "Tobias S. Buckell",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1235,
+      "name": "Tom Reamy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1236,
+      "name": "Ursula K. Le Guin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1237,
+      "name": "Valerie Martin",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1238,
+      "name": "Vernor Vinge",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1239,
+      "name": "Vonda N.McIntyre",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1240,
+      "name": "Walter Jon Williams",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1241,
+      "name": "Walter M.Miller, Jr.",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1242,
+      "name": "Walter Tevis",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1243,
+      "name": "Wil McCarthy",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1244,
+      "name": "William Gibson",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1245,
+      "name": "William S. Burroughs",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1246,
+      "name": "Wilson Tucker",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
+      "id": 1247,
+      "name": "Yoon Ha Lee",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    }
+  ]
+} 

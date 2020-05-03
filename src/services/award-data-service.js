@@ -1,8 +1,8 @@
-const fetchAward = (awardHistory) => 
-    fetch(`/data/${awardHistory}.json`)
+const fetchTextRecords = (textRecord) => 
+    fetch(`/data/${textRecord}.json`)
     .then((response) => response.json())
 
 
 export default {
-   fetchAward
+   fetchTextRecords
 }

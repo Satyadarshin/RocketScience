@@ -15,7 +15,7 @@
                     v-for="(column, index) in columns"
                     :key="index"
                     >
-                    <a href="#" @click.prevent="sortBy(column)">{{ column }}</a>
+                    <span @click="sortBy(column)">{{ column }}</span>
                 </th>
             </tr>
         </thead>
@@ -31,7 +31,7 @@
             itemscope itemtype="http://schema.org/Book"
             >
                 <td>{{ award.year }}</td>
-                <td itemprop="author">{{ award.winner.author }}</td>
+                <td itemprop="author"><router-link :to="`/authors/${award.winner.author}`">{{ award.winner.author }}</router-link></td>
                 <td itemprop="name">{{ award.winner.title }}</td>
             </tr>
         </tbody>
@@ -57,18 +57,19 @@ export default {
     methods: {
         sortBy(sortCriteria) {
             if (sortCriteria === this.sortKey) {
-                this.sortDirection = this.sortDirection === 'asc' ? 'desc':'asc' 
+                this.sortDirection = (this.sortDirection === 'asc') ? 'desc':'asc' 
             }
             this.sortKey = sortCriteria
         }
     },
     computed: {
         sortedWinners() {
-            return this.selectedAward.sort((a, b) => {
-                if (this.SortDirection === 'asc') {
-                    return a[this.sortKey] > b[this.sortKey];      
-                }
-                return a[this.sortKey] < b[this.sortKey];
+            return this.selectedAward.sort((a,b) => {
+                let modifier = 1; 
+                if(this.sortDirection === 'desc') modifier = -1;
+                if(a[this.sortKey] < b[this.sortKey]) return -1 * modifier;
+                if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier;
+                return 0;
             })
         }
     }
@@ -96,20 +97,29 @@ table {
     td, th { 
         padding: .5rem  0 .5rem .25rem;
     }
-    td {
+    td { 
+        &:first-child {
+            text-align: left;
+            width: 6rem
+        }
         &:nth-child(2) { 
-            text-align: right 
+            text-align: left 
         }   
         &:last-child { 
-            text-align: left; padding-left: 1rem;   
+            text-align: left; 
+            padding-left: 1rem;   
         }
     } 
     thead {
         tr{
             border-bottom: 1px solid $table-border;
         }
-        th {
-            a {
+        th { 
+            text-align: left;
+            &:first-child {
+                width: 6rem
+            }
+            span {
                 text-decoration: none;
                 color: $oil;
                 text-transform: capitalize;

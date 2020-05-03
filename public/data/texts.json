@@ -1,0 +1,19 @@
+{ 
+    "response_code": 0,
+    "results": [
+        { 
+            "id": 1000,
+            "type": "novel",
+            "title": "Dune",
+            "author": 1000,
+            "published": 1965
+        },
+        { 
+            "id": 2000,
+            "type": "novel",
+            "title": "The Stone Sky",
+            "author": 2000,
+            "published": 2017
+        }
+    ]
+}

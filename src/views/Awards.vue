@@ -26,10 +26,10 @@ export default {
     },
     methods: { 
         viewAwardCategory(awardBody, extractCategory) {
-            //Comment on the purpose of the regx
+            //The two regex below break out the file  an object names to pass it down to the component as a header
             this.awarder = awardBody.replace(/_/g, " ")
             this.category = extractCategory.replace(/([A-Z])/g, ' $1')
-            awardDataService.fetchAward(awardBody)
+            awardDataService.fetchTextRecords(awardBody)
             .then((jsonData) => {
                 let awardHistory = jsonData.results
                 this.displayCategory = awardHistory[0][extractCategory] 
