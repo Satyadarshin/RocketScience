@@ -55,6 +55,5 @@ export default {
         width: 10rem; 
         margin: 0 .25rem;
     }
-    // display: flex; flex-direction: row;
 }
 </style>

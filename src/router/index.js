@@ -19,9 +19,10 @@ const routes = [
     component: About,
   },
   {
-    path: '/authors/:id',
+    path: '/authors/:author',
     name: 'Authors',
     component: Authors,
+    props: true
   },
   {
     path: '/awards',

@@ -38,7 +38,7 @@
     </table>
 </div>
 </template>
-
+authorList
 <script>
 export default {
     data: () => {
