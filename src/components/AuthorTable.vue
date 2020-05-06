@@ -1,12 +1,15 @@
 <template>
   <div class="authors content">
       <table>
-      <tr>
-        <th>Author</th><th>Born</th><th>Died</th>
-      </tr>
-      <tr v-for="(author, index) in authorList" :key="index">
-        <td>{{ author.name }}</td><td> {{author.born}}</td><td>{{ author.died }}</td>
-      </tr>
+        <th 
+            v-for="(column, index) in columns"
+            :key="index"
+            >
+            <span @click="sortBy(column)">{{ column }}</span>
+        </th>
+        <tr v-for="(author, index) in authorList" :key="index">
+            <td><router-link :to="`/authors/${author.name}`">{{ author.name }}</router-link></td><td> {{author.born}}</td><td>{{ author.died }}</td>
+        </tr>
     </table>
   </div>
 </template>
@@ -16,10 +19,32 @@
 export default {
     data() {
         return {
+            sortKey: 'year',
+            sortDirection: 'asc',
+            columns: ['Author', 'Born', 'Died']
         }
     },
     props: {
         authorList: Array
+    },
+    methods: {
+        sortBy(sortCriteria) {
+            if (sortCriteria === this.sortKey) {
+                this.sortDirection = (this.sortDirection === 'asc') ? 'desc':'asc' 
+            }
+            this.sortKey = sortCriteria
+        }
+    },
+    computed: {
+        sortedWinners() {
+            return this.selectedAward.sort((a,b) => {
+                let modifier = 1; 
+                if(this.sortDirection === 'desc') modifier = -1;
+                if(a[this.sortKey] < b[this.sortKey]) return -1 * modifier;
+                if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier;
+                return 0;
+            })
+        }
     }
 }
 </script>

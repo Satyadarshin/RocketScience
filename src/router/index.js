@@ -19,7 +19,7 @@ const routes = [
     component: About,
   },
   {
-    path: '/authors/:author',
+    path: '/authors/:spotlightOn',
     name: 'Authors',
     component: Authors,
     props: true

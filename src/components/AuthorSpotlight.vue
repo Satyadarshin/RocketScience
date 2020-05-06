@@ -1,8 +1,8 @@
 <template>
-<div>
-<h3>{{ authorName }}</h3>
+    <div id="author-spotlight">
+        <h3>{{ authorName  }}</h3>
 
-</div>
+    </div>
 </template>
 
 <script>
@@ -18,3 +18,13 @@ return {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+#author-spotlight {
+    h3 {
+        text-align: left;
+    }
+    border: 1px solid;
+    min-height: 10rem
+ }
+</style>

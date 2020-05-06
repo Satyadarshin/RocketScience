@@ -3,7 +3,7 @@
 "results": [
     {
       "id": 1000,
-      "name": "Frank Herbert",
+      "name": "Herbert, Frank",
       "born": "08.10.1920",
       "died": "11.02.1986",
       "biography": "born in Tacoma, Washington, to Frank Patrick Herbert Sr. and Eileen (McCarthy) Herbert. Because of a poor home environment, he ran away from home in 1938 to live with an aunt and uncle in Salem, Oregon.[3] He enrolled in high school at Salem High School (now North Salem High School), where he graduated the next year.[3] In 1939 he lied about his age to get his first newspaper job at the Glendale Star.[4] Herbert then returned to Salem in 1940 where he worked for the Oregon Statesman newspaper (now Statesman Journal) in a variety of positions, including photographer.",
@@ -11,7 +11,7 @@
     },
     {
       "id": 1001,
-      "name": "N. K. Jemisin",
+      "name": "Jemisin, N. K. ",
       "born": "19.09.1972",
       "died": "",
       "biography": "American science fiction and fantasy writer who has also worked as a counseling psychologist. Her fiction explores a wide variety of themes, including cultural conflict and oppression.[1][2] She has won several awards for her work, including the Locus Award. As of her August 2018 win, the three books of her Broken Earth series have made her the only author to have won the Hugo Award for Best Novel in three consecutive years.",
@@ -19,7 +19,7 @@
     },
     {
       "id": 1002,
-      "name": "Alexei Panshin",
+      "name": "Panshin, Alexei",
       "born": "",
       "died": "",
       "biography": "",
@@ -27,7 +27,7 @@
     },
     {
       "id": 1003,
-      "name": "Charles Stross",
+      "name": "Stross, Charles",
       "born": "",
       "died": "",
       "biography": "",
@@ -35,7 +35,7 @@
     },
     {
       "id": 1004,
-      "name": "Robert J.Sawyer",
+      "name": "Sawyer, Robert J.",
       "born": "",
       "died": "",
       "biography": "",
@@ -43,7 +43,7 @@
     },
     {
       "id": 1005,
-      "name": "A. A. Attanasio",
+      "name": "Attanasio, A. A.",
       "born": "",
       "died": "",
       "biography": "",
@@ -51,15 +51,7 @@
     },
     {
       "id": 1006,
-      "name": "Ada Palmer",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1007,
-      "name": "Alexei Panshin",
+      "name": "Palmer, Ada ",
       "born": "",
       "died": "",
       "biography": "",
@@ -67,7 +59,7 @@
     },
     {
       "id": 1008,
-      "name": "Alfred Bester",
+      "name": "Bester, Alfred",
       "born": "",
       "died": "",
       "biography": "",
@@ -75,7 +67,7 @@
     },
     {
       "id": 1009,
-      "name": "Algis Budrys",
+      "name": "Budrys, Algis",
       "born": "",
       "died": "",
       "biography": "",
@@ -83,7 +75,7 @@
     },
     {
       "id": 1010,
-      "name": "an McDonald",
+      "name": "McDonald, Ian",
       "born": "",
       "died": "",
       "biography": "",
@@ -91,7 +83,7 @@
     },
     {
       "id": 1011,
-      "name": "Andre Norton",
+      "name": "Norton, Andre",
       "born": "",
       "died": "",
       "biography": "",
@@ -99,7 +91,7 @@
     },
     {
       "id": 1012,
-      "name": "Ann Leckie",
+      "name": "Leckie, Ann",
       "born": "",
       "died": "",
       "biography": "",
@@ -107,7 +99,7 @@
     },
     {
       "id": 1013,
-      "name": "Annalee Newitz",
+      "name": "Newitz, Annalee",
       "born": "",
       "died": "",
       "biography": "",
@@ -115,7 +107,7 @@
     },
     {
       "id": 1014,
-      "name": "Anne McCaffrey",
+      "name": "McCaffrey, Anne",
       "born": "",
       "died": "",
       "biography": "",
@@ -882,14 +874,6 @@
       "website": ""
     },
     {
-      "id": 1110,
-      "name": "Jo Walton",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
-    },
-    {
       "id": 1111,
       "name": "Joan D.Vinge",
       "born": "",
@@ -900,14 +884,6 @@
     {
       "id": 1112,
       "name": "Joanna Russ",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1113,
-      "name": "Joe Haldeman",
       "born": "",
       "died": "",
       "biography": "",
@@ -1226,8 +1202,16 @@
       "website": ""
     },
     {
+      "id": 1248,
+      "name": "Frank Riley",
+      "born": "",
+      "died": "",
+      "biography": "",
+      "website": ""
+    },
+    {
       "id": 1153,
-      "name": "Mark Clifton, Frank Riley",
+      "name": "Mark Clifton",
       "born": "",
       "died": "",
       "biography": "",
