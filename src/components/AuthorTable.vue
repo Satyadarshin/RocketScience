@@ -7,19 +7,18 @@
             >
             <span @click="sortBy(column)">{{ column }}</span>
         </th>
-        <tr v-for="(author, index) in authorList" :key="index">
-            <td><router-link :to="`/authors/${author.name}`">{{ author.name }}</router-link></td><td> {{author.born}}</td><td>{{ author.died }}</td>
+        <tr v-for="(author, index) in sortedAuthors" :key="index">
+            <td><router-link :to="author.name">{{ author.name }}</router-link></td><td>{{ author.born }}</td><td>{{ author.died }}</td>
         </tr>
     </table>
   </div>
 </template>
 
 <script>
-
 export default {
     data() {
         return {
-            sortKey: 'year',
+            sortKey: 'author',
             sortDirection: 'asc',
             columns: ['Author', 'Born', 'Died']
         }
@@ -33,16 +32,27 @@ export default {
                 this.sortDirection = (this.sortDirection === 'asc') ? 'desc':'asc' 
             }
             this.sortKey = sortCriteria
+        },
+        reverseLastFirstName( lastFirstName ) {
+            let firstLastName = ""
+            return firstLastName = lastFirstName.split(", ").reverse().join(" ");
         }
     },
     computed: {
-        sortedWinners() {
-            return this.selectedAward.sort((a,b) => {
+        sortedAuthors() {
+            return this.authorList.sort( (a,b) => {
                 let modifier = 1; 
-                if(this.sortDirection === 'desc') modifier = -1;
-                if(a[this.sortKey] < b[this.sortKey]) return -1 * modifier;
-                if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier;
+                if(this.sortDirection === 'desc') modifier = -1
+                if(a[this.sortKey] < b[this.sortKey]) return -1 * modifier
+                if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier
                 return 0;
+            })
+        }
+    },
+    mounted: {
+        insertFirstLastName() {
+            return this.authorList.forEach( (a) => {
+                a.alternateName = this.reverseLastFirstName( a.name )
             })
         }
     }
@@ -68,7 +78,6 @@ table {
     td { 
         &:first-child {
             text-align: left;
-            //width: 6rem
         }
         &:nth-child(2) { 
             text-align: right 

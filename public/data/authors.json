@@ -7,11 +7,11 @@
       "born": "08.10.1920",
       "died": "11.02.1986",
       "biography": "born in Tacoma, Washington, to Frank Patrick Herbert Sr. and Eileen (McCarthy) Herbert. Because of a poor home environment, he ran away from home in 1938 to live with an aunt and uncle in Salem, Oregon.[3] He enrolled in high school at Salem High School (now North Salem High School), where he graduated the next year.[3] In 1939 he lied about his age to get his first newspaper job at the Glendale Star.[4] Herbert then returned to Salem in 1940 where he worked for the Oregon Statesman newspaper (now Statesman Journal) in a variety of positions, including photographer.",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1001,
-      "name": "Jemisin, N. K. ",
+      "name": "Jemisin, N. K.",
       "born": "19.09.1972",
       "died": "",
       "biography": "American science fiction and fantasy writer who has also worked as a counseling psychologist. Her fiction explores a wide variety of themes, including cultural conflict and oppression.[1][2] She has won several awards for her work, including the Locus Award. As of her August 2018 win, the three books of her Broken Earth series have made her the only author to have won the Hugo Award for Best Novel in three consecutive years.",
@@ -23,7 +23,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1003,
@@ -31,7 +31,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1004,
@@ -39,7 +39,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1005,
@@ -47,7 +47,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1006,
@@ -55,7 +55,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1008,
@@ -63,7 +63,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1009,
@@ -71,7 +71,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1010,
@@ -79,7 +79,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1011,
@@ -87,7 +87,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1012,
@@ -95,7 +95,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1013,
@@ -103,7 +103,7 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1014,
@@ -111,1863 +111,1831 @@
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1015,
-      "name": "Arthur Byron Cover",
-      "born": "",
+      "name": "Cover, Arthur Byron ",
+      "born": "14.01.1950",
       "died": "",
-      "biography": "",
-      "website": ""
+      "biography": "Cover attended the Clarion Writer&rsquo;s SF Workshop in New Orleans in 1971, and made his first professional short-story sale to Harlan Ellison&rsqio;s The Last Dangerous Visions.<br>Cover&rsquo;s short stories have appeared in Infinity Five, Alternities, The Alien Condition, Weird Heroes #6, The Year&rsquo;s Best Horror #4 and #5, Wild Cards #5: Down & Dirty, and Pulphouse. He has also written several comic books, including two issues of Daredevil (one of them with Ellison), and Space Clusters, a graphic novel from DC Comics illustrated by Alex Niño — plus several animation scripts, and reviews and articles for such august publications as The New York Review of Science Fiction.<br>Cover's first novel, Autumn Angels, was the second of Harlan Ellison's Discovery Series of new authors for Pyramid Books, and was nominated for a Nebula Award. The novel has been described as &ldquo;a stylistic cross-breed of Ellison and Vonnegut, and as such both predates and bests Douglas Adams in creating a comic, literary fantasy.&rdquo;<br>Cover currently manages the &ldquo;Dangerous Visions&rdquo; science fiction book sales website. The website takes its name from the Dangerous Visions anthology edited in 1967 by Harlan Ellison. Cover was also a judge for the 2005 Philip K. Dick Award.",
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1016,
-      "name": "Arthur C. Clarke",
+      "name": "Clarke, Arthur C.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1017,
-      "name": "Avram Davidson",
+      "name": "Davidson, Avram",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1018,
-      "name": "Barry N. Malzberg",
+      "name": "Malzberg, Barry N. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1019,
-      "name": "Becky Chambers",
+      "name": "Chambers, Becky",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1020,
-      "name": "Bob Shawn",
+      "name": "Shawn, Bob",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1021,
-      "name": "Brandon Sanderson",
+      "name": "Sanderson, Brandon ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1022,
-      "name": "Brian Aldiss",
+      "name": "Aldiss, Brian",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1023,
-      "name": "Bruce Sterling",
+      "name": "Sterling, Bruce",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1024,
-      "name": "C. J. Cherryh",
+      "name": "Cherryh, C. J. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1025,
-      "name": "C. L. Polk",
+      "name": "Polk, C. L.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1026,
-      "name": "Caitlín R. Kiernan",
+      "name": "Kiernan, Caitlín R.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1027,
-      "name": "Carol Emshwiller",
+      "name": "Emshwiller, Carol",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1028,
-      "name": "Catherine Asaro",
+      "name": "Asaro, Catherine",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1029,
-      "name": "Catherynne M.Valente",
+      "name": "Valente, Catherynne M.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1030,
-      "name": "Charles de Lint",
+      "name": "Lint, Charles de",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1031,
-      "name": "Charles E. Gannon",
+      "name": "Gannon, Charles E. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1032,
-      "name": "Charles Stross",
+      "name": "Stross, Charles",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1033,
-      "name": "Charlie Jane Anders",
+      "name": "Anders, Charlie Jane",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1034,
-      "name": "Cherie Priest",
+      "name": "Priest, Cherie",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1035,
-      "name": "Chester Anderson",
+      "name": "Anderson, Chester",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1036,
-      "name": "China Miéville",
+      "name": "Miéville. China",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1037,
-      "name": "Christopher Barzak",
+      "name": "Barzak, Christopher",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1038,
-      "name": "Christopher Priest",
+      "name": "Priest, Christopher",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1039,
-      "name": "Cixin Liu",
+      "name": "Liu, Cixin",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1040,
-      "name": "Clifford D.Simak",
+      "name": "Simak, Clifford D.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1041,
-      "name": "Connie Willis",
+      "name": "Willis, Connie",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1042,
-      "name": "Cordwainer Smith",
+      "name": "Smith, Cordwainer",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1043,
-      "name": "Cory Doctorow",
+      "name": "Doctorow, Cory",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1044,
-      "name": "Cyril M.Kornbluth",
+      "name": "Kornbluth, Cyril M.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1045,
-      "name": "Dan Simmon",
+      "name": "Simmons, Dan ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1046,
-      "name": "Dan Simmons",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1047,
-      "name": "Daniel F.Galouye",
+      "name": "Galouye, Daniel F.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1048,
-      "name": "Daniel Keyes",
+      "name": "Keyes, Daniel",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1049,
-      "name": "Daryl Gregory",
+      "name": "Gregory, Daryl",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1050,
-      "name": "David Brin",
+      "name": "Brin, David",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1051,
-      "name": "David G. Compton",
+      "name": "Compton, David G.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1052,
-      "name": "David Gerrold",
+      "name": "Gerrold, David",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1053,
-      "name": "David J. Schwartz",
+      "name": "Schwartz, David J.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1054,
-      "name": "David Mitchell",
+      "name": "Mitchell, David",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1055,
-      "name": "David R.Palmer",
+      "name": "Palmer, David R.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1056,
-      "name": "Donald Kingsbury",
+      "name": "Kingsbury, Donald",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1057,
-      "name": "Doug Beason",
+      "name": "Beason, Doug",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1058,
-      "name": "E. L. Doctorow",
+      "name": "Doctorow, E. L.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1059,
-      "name": "Edgar Pangborn",
+      "name": "Pangborn, Edgar",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1060,
-      "name": "Edward E.Smith",
+      "name": "Smith, Edward E.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1061,
-      "name": "Elizabeth Ann Scarborough",
+      "name": "Scarborough. Elizabeth Ann",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1062,
-      "name": "Elizabeth Moon",
+      "name": "Moon, Elizabeth",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1063,
-      "name": "Ellen Kushner",
+      "name": "Kushner. Ellen",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1064,
-      "name": "Emma Bull",
+      "name": "Bull, Emma",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1065,
-      "name": "Fonda Lee",
+      "name": "Lee, Fonda",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1066,
-      "name": "Fran Wilde",
+      "name": "Wilde, Fran",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1067,
-      "name": "Frederik Pohl",
+      "name": "Pohl, Frederik",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1068,
-      "name": "Fritz Leiber",
+      "name": "Leiber, Fritz",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1069,
-      "name": "G. C. Edmondson",
+      "name": "Edmondson, G. C.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1070,
-      "name": "Gardner Dozois",
+      "name": "Dozois, Gardner ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1071,
-      "name": "Gene Wolfe",
+      "name": "Wolfe, Gene",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1072,
-      "name": "Genevieve Valentine",
+      "name": "Valentine, Genevieve",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1073,
-      "name": "Geoff Ryman",
+      "name": "Ryman, Geoff",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1074,
-      "name": "Geoffrey A. Landis",
+      "name": "Landis, Geoffrey A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1075,
-      "name": "George Alec Effinger",
+      "name": "Effinger, George Alec",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1076,
-      "name": "George R.R.Martin",
+      "name": "Martin, George R. R.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1077,
-      "name": "George Turner",
+      "name": "Turner. George ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1078,
-      "name": "Gordon R.Dickson",
+      "name": "Dickson, Gordon R.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1079,
-      "name": "Gore Vidal",
+      "name": "Vidal, Gore",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1080,
-      "name": "Greg Bear",
+      "name": "Bear, Greg",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1081,
-      "name": "Gregory Benford",
+      "name": "Benford, Gregory",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1082,
-      "name": "H.Beam Piper",
+      "name": "Piper, H. Beam ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1083,
-      "name": "Hal Clement",
+      "name": "Clement, Hal",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1084,
-      "name": "Harry Harrison",
+      "name": "Harrison, Harry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1085,
-      "name": "Harry Turtledove",
+      "name": "Turtledove, Harry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1086,
-      "name": "Hayden Howard",
+      "name": "Howard, Hayden",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1087,
-      "name": "Helene Wecker",
+      "name": "Wecker, Helene",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1088,
-      "name": "Iain M.Banks",
+      "name": " Banks, Iain M.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1089,
-      "name": "Ian McDonald",
+      "name": "McDonald, Ian",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1090,
-      "name": "Ian Watson",
+      "name": " Watson, Ian",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1091,
-      "name": "Isaac Asimov",
+      "name": "Asimov, Isaac",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1092,
-      "name": "Italo Calvino",
+      "name": "Calvino, Italo",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1093,
-      "name": "J.K.Rowling",
+      "name": "Rowling, J.K.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1094,
-      "name": "Jack Dann",
+      "name": "Dann Jack",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1095,
-      "name": "Jack McDevitt",
+      "name": "McDevitt, Jack",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1096,
-      "name": "Jack Vance",
+      "name": "Vance, Jack",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1097,
-      "name": "James Blish",
+      "name": "Blish, James",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1098,
-      "name": "James H.Schmitz",
+      "name": "Schmitz, James H.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1099,
-      "name": "James K. Morrow",
+      "name": "JMorrow, James K.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1100,
-      "name": "James S.A.Corey",
+      "name": "Corey, James S. A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1101,
-      "name": "James White",
+      "name": "White, James",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1102,
-      "name": "Jane Yolen",
+      "name": "Yolen, Jane",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1103,
-      "name": "Jean Bruller",
+      "name": "Bruller, Jean",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1104,
-      "name": "Jeff VanderMeer",
+      "name": "VanderMeer, Jeff",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1105,
-      "name": "Jeffrey Carver",
+      "name": "Carver, Jeffrey",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1106,
-      "name": "Jeffrey Ford",
+      "name": "Ford, Jeffrey",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1107,
-      "name": "Jerry Pournelle",
+      "name": "Pournelle, Jerry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1108,
-      "name": "Jim Butcher",
+      "name": "Butcher, Jim",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1109,
-      "name": "Jo Walton",
+      "name": "Walton, Jo",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1111,
-      "name": "Joan D.Vinge",
+      "name": "Vinge, Joan D.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1112,
-      "name": "Joanna Russ",
+      "name": "Russ, Joanna",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1114,
-      "name": "John Barnes",
+      "name": "Barnes, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1115,
-      "name": "John Brunner",
+      "name": "Brunner, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1116,
-      "name": "John C. Wright",
+      "name": "Wright, John C.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1117,
-      "name": "John Crowley",
+      "name": "Crowley, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1118,
-      "name": "John E. Stith",
+      "name": "Stith, John E.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1119,
-      "name": "John Kessel",
+      "name": "Kessel, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1120,
-      "name": "John Scalzi",
+      "name": "Scalzi, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1121,
-      "name": "John Varley",
+      "name": "Varley, John",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1122,
-      "name": "Jonathan Lethem",
+      "name": "Lethem, Jonathan",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1123,
-      "name": "Julian May",
+      "name": "May, Julian",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1124,
-      "name": "Kameron Hurley",
+      "name": "Hurley, Kameron",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1125,
-      "name": "Karen Joy Fowler",
+      "name": "Fowler, Karen Joy",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1126,
-      "name": "Kate Elliott",
+      "name": "Elliott, Kate",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1127,
-      "name": "Kate Wilhelm",
+      "name": "Wilhelm, Kate",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1128,
-      "name": "Katherine Addison",
+      "name": "Addison, Katherine",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1129,
-      "name": "Katherine MacLean",
+      "name": "MacLean, Katherine",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1130,
-      "name": "Kathleen Ann Goonan",
+      "name": "Goonan, Kathleen Ann",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1131,
-      "name": "Keith Laumer",
+      "name": "Laumer, Keith",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1132,
-      "name": "Kelley Eskridge",
+      "name": "Eskridge, Kelley",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1133,
-      "name": "Ken Liu",
+      "name": "Liu, Ken",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1134,
-      "name": "Ken MacLeod",
+      "name": "MacLeod, Ken",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1135,
-      "name": "Kevin J. Anderson",
+      "name": "Anderson, Kevin J. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1136,
-      "name": "Kim Stanley Robinson",
-      "born": "",
+      "name": "Robinson, Kim Stanley",
+      "born": "23.03.1952",
       "died": "",
-      "biography": "",
-      "website": ""
+      "biography": "an American socialist writer of science fiction. Robinson was born in Waukegan, Illinois. He moved to Southern California as a child. In 1974, he earned a B.A. in literature from the University of California, San Diego.[4] In 1975, he earned an M.A. in English from Boston University. He has published nineteen novels and numerous short stories but is best known for his Mars trilogy. His work has been translated into 24 languages. Many of his novels and stories have ecological, cultural, and political themes and feature scientists as heroes. Robinson has won numerous awards, including the Hugo Award for Best Novel, the Nebula Award for Best Novel and the World Fantasy Award. Robinson's work has been labeled by The Atlantic as Rldquo;the gold-standard of realistic, and highly literary, science-fiction writing.&rdquo; According to an article in The New Yorker, Robinson is &ldquo;generally acknowledged as one of the greatest living science-fiction writers.&rdquo;",
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1137,
-      "name": "Kurt Vonnegut",
+      "name": "Vonnegut, Kurt",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1138,
-      "name": "L.Ron Hubbard",
+      "name": "Hubbard, L. Ron ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1139,
-      "name": "Lara Elena Donnelly",
+      "name": "Donnelly, Lara Elena",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1140,
-      "name": "Larry Correia",
+      "name": "Correia, Larry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1141,
-      "name": "Larry Niven",
+      "name": "Niven, Larry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1142,
-      "name": "Laura Anne Gilman",
+      "name": "Gilman, Laura Anne ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1143,
-      "name": "Lawrence M. Schoen",
+      "name": "Schoen, Lawrence M.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1144,
-      "name": "Leigh Brackett",
+      "name": "Brackett, Leigh",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1145,
-      "name": "Leigh Kennedy",
+      "name": "Kennedy, Leigh",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1146,
-      "name": "Lewis Shiner",
+      "name": "Shiner, Lewis",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1147,
-      "name": "Linda Nagata",
+      "name": "Nagata, Linda",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1148,
-      "name": "Joe Haldeman",
+      "name": "Haldeman, Joe",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1149,
-      "name": "Lois McMaster Bujold",
+      "name": "McMaster Bujold, Lois",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1150,
-      "name": "M. K. Hobson",
+      "name": "Hobson, M. K.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1151,
-      "name": "Margaret Atwood",
+      "name": "Atwood, Margaret",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1152,
-      "name": "Marion Zimmer Bradley",
-      "born": "",
-      "died": "",
+      "name": "Bradley, Marion Zimmer ",
+      "born": "03.06.1930",
+      "died": "25,11,1999",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1248,
-      "name": "Frank Riley",
+      "name": "Riley, Frank",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1153,
-      "name": "Mark Clifton",
+      "name": "Clifton, Mark",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1154,
-      "name": "Mark Phillips",
+      "name": "Phillips, Mark",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1155,
-      "name": "Marta Randall",
+      "name": "Randall, Marta",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1156,
-      "name": "Martha Wells",
+      "name": "Wells, Martha",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1157,
-      "name": "Mary Doria Russell",
+      "name": "Russell, Mary Doria ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1158,
-      "name": "Mary Robinette Kowal",
+      "name": "Kowal, Mary Robinette ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1159,
-      "name": "Maureen F. McHugh",
+      "name": "McHugh, Maureen F. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1160,
-      "name": "Michael Bishop",
+      "name": "Bishop, Michael",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1161,
-      "name": "Michael Chabon",
+      "name": "Chabon, Michael",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1162,
-      "name": "Michael F.Flynn",
+      "name": "Flynn, Michael F.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1163,
-      "name": "Michael P.Kube-McDowell",
+      "name": "Kube-McDowell, Michael P.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1164,
-      "name": "Michael Swanwick",
+      "name": "Swanwick. Michael",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1165,
-      "name": "Mike Resnick",
+      "name": "Resnick, Mike",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1166,
-      "name": "Mira Grant",
+      "name": "Grant, Mira",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1167,
-      "name": "Mishell Baker",
+      "name": "Baker, Mishell",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1168,
-      "name": "Mur Lafferty",
+      "name": "Lafferty, Mur",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1169,
-      "name": "Murray Leinster",
+      "name": "Leinster, Murray",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1170,
-      "name": "Nalo Hopkinson",
+      "name": "Hopkinson, Nalo",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1171,
-      "name": "Nalo Hopkinson",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1172,
-      "name": "Nancy Kress",
+      "name": "Kress, Nancy",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1173,
-      "name": "Naomi Novik",
+      "name": "Novik, Naomi",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1174,
-      "name": "Neal Stephenson",
+      "name": "Stephenson, Neal",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1175,
-      "name": "Neil Gaiman",
+      "name": "Gaiman, Neil",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1176,
-      "name": "Nicola Griffith",
+      "name": "Griffith, Nicola",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1177,
-      "name": "Nina Kiriki Hoffman",
+      "name": "Hoffman, Nina Kiriki",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1178,
-      "name": "Nisi Shawl",
+      "name": "Shawl, Nisi",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1179,
-      "name": "Nnedi Okorafor",
+      "name": "Okorafor, Nnedi",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1180,
-      "name": "Norman Spinrad",
+      "name": "Spinrad, Norman",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1181,
-      "name": "Octavia E. Butler",
+      "name": "Butler, Octavia E. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1182,
-      "name": "Orson Scott Card",
+      "name": "Card, Orson Scott",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1183,
-      "name": "Paolo Bacigalupi",
+      "name": "Bacigalupi, Paolo",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1184,
-      "name": "Pat Cadigan",
+      "name": "Cadigan, Pat",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1185,
-      "name": "Pat Murphy",
+      "name": "Murphy, Pat",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1186,
-      "name": "Patricia A.McKillip",
+      "name": "McKillip, Patricia A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1187,
-      "name": "Paul Park",
+      "name": "Park, Paul",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1188,
-      "name": "Peter Watts",
+      "name": "Watts, Peter",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1189,
-      "name": "Philip José Farmer",
+      "name": "Farmer, Philip José ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1190,
-      "name": "Philip K. Dick",
+      "name": "Dick, Philip K. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1191,
-      "name": "Piers Anthony",
+      "name": "Anthony, Piers",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1192,
-      "name": "Poul Anderson",
+      "name": "Anderson, Poul",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1193,
-      "name": "R. A. Lafferty",
+      "name": "Lafferty, R. A. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1194,
-      "name": "R. A. MacAvoy",
+      "name": "MacAvoy, R. A. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1195,
-      "name": "R. F. Kuang",
+      "name": "Kuang, R. F.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1196,
-      "name": "R.A.Lafferty",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
-    },
-    {
-      "id": 1197,
-      "name": "R.A.MacAvoy",
-      "born": "",
-      "died": "",
-      "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1198,
-      "name": "Rachel Pollack",
+      "name": "Pollack. Rachel",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1199,
-      "name": "Randall Garrett",
+      "name": "Garrett, Randall",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1200,
-      "name": "Rebecca Roanhorse",
+      "name": "Roanhorse. Rebecca",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1201,
-      "name": "Richard A. Lupoff",
+      "name": "Lupoff, Richard A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1202,
-      "name": "Richard Bowes",
+      "name": "Bowes, Richard",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1203,
-      "name": "Robert A. Heinlein",
+      "name": "Heinlein, Robert A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1204,
-      "name": "Robert A. Metzger",
+      "name": "Metzger, Robert A.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1205,
-      "name": "Robert Charles Wilson",
+      "name": "Wilson, Robert Charles",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1206,
-      "name": "Robert J. Sawyer",
+      "name": "Sawyer, Robert J. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1207,
-      "name": "Robert Jordan",
+      "name": "Jordan, Robert",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1208,
-      "name": "Robert Sheckley",
+      "name": "Sheckley, Robert",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1209,
-      "name": "Robert Silverberg",
+      "name": "Silverberg, Robert",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1210,
-      "name": "Robert Stallman",
+      "name": "Stallman, Robert",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1211,
-      "name": "Roger Zelazny",
+      "name": "Zelazny, Roger",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1212,
-      "name": "Russell Hoban",
+      "name": "Hoban, Russell",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1213,
-      "name": "Saladin Ahmed",
+      "name": "Ahmed, Saladin",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1214,
-      "name": "Sam J. Miller",
+      "name": "Miller, Sam J. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1215,
-      "name": "Samuel R. Delany",
+      "name": "Delany, Samuel R.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1216,
-      "name": "Sheri S.Tepper",
+      "name": "Tepper, Sheri S.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1217,
-      "name": "Sofia Samatar",
+      "name": "Samatar, Sofia",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1218,
-      "name": "Stephen Baxter",
+      "name": "Baxter, Stephen",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1219,
-      "name": "Susanna Clarke",
+      "name": "Clarke, Susanna",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1220,
-      "name": "Suzy McKee Charnas",
-      "born": "",
+      "name": "Charnas, Suzy McKee ",
+      "born": "22.10.1939",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1221,
-      "name": "T. J. Bass",
+      "name": "Bass, T. J.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1222,
-      "name": "Tanith Lee",
+      "name": "Lee, Tanith",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1223,
-      "name": "Terry Carr",
+      "name": "Carr, Terry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1224,
-      "name": "Terry Pratchett",
+      "name": "Pratchett, Terry",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1225,
-      "name": "Theodora Goss",
+      "name": "Goss, Theodora",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1226,
-      "name": "Theodore L. Thomas",
+      "name": "Thomas, Theodore L.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1227,
-      "name": "Theodore Sturgeon",
+      "name": "Sturgeon, Theodore",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1228,
-      "name": "Thomas Burnett Swann",
+      "name": "Swann, Thomas Burnett",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1229,
-      "name": "Thomas Disch",
+      "name": "Disch, Thomas",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1230,
-      "name": "Thomas M. Disch",
+      "name": "Disch, Thomas M.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1231,
-      "name": "Thomas Pynchon",
+      "name": "Pynchon, Thomas",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1232,
-      "name": "Tim Powers",
+      "name": "Powers, Tim",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1233,
-      "name": "Tina Connolly",
+      "name": "Connolly, Tina",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1234,
-      "name": "Tobias S. Buckell",
+      "name": "Buckell, Tobias S.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1235,
-      "name": "Tom Reamy",
+      "name": "Reamy, Tom",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1236,
-      "name": "Ursula K. Le Guin",
+      "name": "Le Guin, Ursula K.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1237,
-      "name": "Valerie Martin",
+      "name": "Martin, Valerie",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1238,
-      "name": "Vernor Vinge",
+      "name": "Vinge, Vernor",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1239,
-      "name": "Vonda N.McIntyre",
+      "name": "McIntyre, Vonda N.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1240,
-      "name": "Walter Jon Williams",
+      "name": "Williams, Walter Jon",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1241,
-      "name": "Walter M.Miller, Jr.",
+      "name": "Miller, Jr., Walter M. ",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1242,
-      "name": "Walter Tevis",
+      "name": "Tevis, Walter",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1243,
-      "name": "Wil McCarthy",
+      "name": "McCarthy, Wil",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1244,
-      "name": "William Gibson",
+      "name": "Gibson, William",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1245,
-      "name": "William S. Burroughs",
+      "name": "Burroughs, William S.",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1246,
-      "name": "Wilson Tucker",
+      "name": "Tucker, Wilson",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     },
     {
       "id": 1247,
-      "name": "Yoon Ha Lee",
+      "name": "Lee, Yoon Ha",
       "born": "",
       "died": "",
       "biography": "",
-      "website": ""
+      "web": [ ], "texts": [ ]
     }
   ]
 } 
