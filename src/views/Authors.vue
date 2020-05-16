@@ -25,6 +25,9 @@ export default {
     appAuthorTable: authorTable,
     appAuthorSpotlight: authorSpotlight
   },
+  computed: {
+
+  },
   mounted() {
     awardDataService.fetchTextRecords('authors')
     .then((jsonData) => {
