@@ -1,15 +1,19 @@
 <template>
   <div class="authors content">
       <table>
-        <th 
-            v-for="(column, index) in columns"
-            :key="index"
-            >
-            <span @click="sortBy(column)">{{ column }}</span>
-        </th>
-        <tr v-for="(author, index) in sortedAuthors" :key="index">
-            <td><router-link :to="author.name">{{ author.name }}</router-link></td><td>{{ author.born }}</td><td>{{ author.died }}</td>
+          <thead>
+            <th 
+                v-for="(column, index) in columns"
+                :key="index"
+                >
+                <span @click="sortBy(column)">{{ column }}</span>
+            </th>
+          </thead>
+        <tbody>
+        <tr v-for="author in sortedAuthors" :key="author.id">
+            <td><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></td><td>{{ author.born }}</td><td>{{ author.died }}</td>
         </tr>
+        </tbody>
     </table>
   </div>
 </template>
@@ -33,9 +37,13 @@ export default {
             }
             this.sortKey = sortCriteria
         },
-        reverseLastFirstName( lastFirstName ) {
+    },
+    filters: {
+        lastFirstLastNameURL: ( lastFirstName ) => {
+            //Make an SEO friendly URL.
+            //Reverse to first-surname order, and replace space and commas with underscores to be properly formatted URLs
             let firstLastName = ""
-            return firstLastName = lastFirstName.split(", ").reverse().join(" ");
+            return firstLastName = lastFirstName.split(", ").reverse().join(" ").replace(/[ ,]/g, "_")
         }
     },
     computed: {
@@ -46,13 +54,6 @@ export default {
                 if(a[this.sortKey] < b[this.sortKey]) return -1 * modifier
                 if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier
                 return 0;
-            })
-        }
-    },
-    mounted: {
-        insertFirstLastName() {
-            return this.authorList.forEach( (a) => {
-                a.alternateName = this.reverseLastFirstName( a.name )
             })
         }
     }

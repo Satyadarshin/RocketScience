@@ -7,7 +7,8 @@
       "born": "08.10.1920",
       "died": "11.02.1986",
       "biography": "born in Tacoma, Washington, to Frank Patrick Herbert Sr. and Eileen (McCarthy) Herbert. Because of a poor home environment, he ran away from home in 1938 to live with an aunt and uncle in Salem, Oregon.[3] He enrolled in high school at Salem High School (now North Salem High School), where he graduated the next year.[3] In 1939 he lied about his age to get his first newspaper job at the Glendale Star.[4] Herbert then returned to Salem in 1940 where he worked for the Oregon Statesman newspaper (now Statesman Journal) in a variety of positions, including photographer.",
-      "web": [ ], "texts": [ ]
+      "web": [ ], 
+      "texts": [ 1000 ]
     },
     {
       "id": 1001,
@@ -15,7 +16,9 @@
       "born": "19.09.1972",
       "died": "",
       "biography": "American science fiction and fantasy writer who has also worked as a counseling psychologist. Her fiction explores a wide variety of themes, including cultural conflict and oppression.[1][2] She has won several awards for her work, including the Locus Award. As of her August 2018 win, the three books of her Broken Earth series have made her the only author to have won the Hugo Award for Best Novel in three consecutive years.",
-      "website": "http://nkjemisin.com/",
+      "website": [
+        {"link text": "Author's website", "url":"http://nkjemisin.com/"}
+      ],
       "texts": [1331,1348,1355,1356,1376,1409]
     },
     {
@@ -735,7 +738,7 @@
     },
     {
       "id": 1093,
-      "name": "Rowling, J.K.",
+      "name": "Rowling, J. K.",
       "born": "",
       "died": "",
       "biography": "",
@@ -743,7 +746,7 @@
     },
     {
       "id": 1094,
-      "name": "Dann Jack",
+      "name": "Dann, Jack",
       "born": "",
       "died": "",
       "biography": "",
@@ -1200,7 +1203,7 @@
       "web": [ ], "texts": [ ]
     },
     {
-      "id": 1248,
+      "id": 1250,
       "name": "Riley, Frank",
       "born": "",
       "died": "",
@@ -1969,7 +1972,7 @@
       "texts": [1145,1197,1317,1401,1252]
     },
     {
-      "id": 1249,
+      "id": 1251,
       "name": "Silverberg, Robert",
       "born": "",
       "died": "",

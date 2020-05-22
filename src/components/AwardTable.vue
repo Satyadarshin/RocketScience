@@ -1,6 +1,5 @@
 <template>
-<div>
-
+<div class="content">
     <table>
         <caption v-if="selectedAward.length === 0">Choose an Award category, above</caption>
         <caption v-else>Your selected award category is the <span>{{ who }}</span> for <span>{{ what }}</span></caption>
@@ -60,6 +59,14 @@ export default {
                 this.sortDirection = (this.sortDirection === 'asc') ? 'desc':'asc' 
             }
             this.sortKey = sortCriteria
+        }
+    },
+    filters: {
+            lastFirstLastNameURL: ( lastFirstName ) => {
+            //Make an SEO friendly URL.
+            //Reverse to first-surname order, and replace space and commas with underscores to be properly formatted URLs
+            let firstLastName = ""
+            return firstLastName = lastFirstName.split(", ").reverse().join(" ").replace(/[ ,]/g, "_")
         }
     },
     computed: {

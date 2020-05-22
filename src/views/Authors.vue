@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import awardDataService from '@/services/award-data-service.js'
+import sfDataService from '@/services/sf-data-service.js'
 import authorSpotlight from '@/components/AuthorSpotlight'
 import authorTable from '@/components/AuthorTable'
 
@@ -25,11 +25,8 @@ export default {
     appAuthorTable: authorTable,
     appAuthorSpotlight: authorSpotlight
   },
-  computed: {
-
-  },
   mounted() {
-    awardDataService.fetchTextRecords('authors')
+    sfDataService.fetchTextRecords('authors')
     .then((jsonData) => {
         this.authors = jsonData.results
     })

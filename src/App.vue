@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> | 
       <router-link to="/authors">Authors</router-link> |
-      <router-link to="/awards">Awards</router-link>
+      <router-link to="/awards">Awards</router-link> |
+      <router-link to="/masterworks">Masterworks</router-link>
     </div>
     <router-view/>
     <app-footer></app-footer>

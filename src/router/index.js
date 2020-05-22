@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Authors from '../views/Authors.vue';
 import Awards from '../views/Awards.vue';
+import Masterworks from '../views/Masterworks.vue';
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,11 @@ const routes = [
     name: 'Awards',
     component: Awards,
   },
+  {
+    path: '/masterworks',
+    name: 'Masterworks',
+    component: Masterworks,
+  }
 ];
 
 const router = new VueRouter({

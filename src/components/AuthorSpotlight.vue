@@ -1,11 +1,16 @@
 <template>
-    <div id="author-spotlight">
-        <h3>{{ authorName  }}</h3>
-        <div class="bio">
+    <div id="author-spotlight" class="content"> 
+        <div class="author_summary">
+            <h3>{{ cleanAuthorName(authorName) }}</h3>
+            <p>Born &ndash; died?</p>
+            <p><a href="#">Web</a></p>
+        </div>
+        <div class="author_bio">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, facilis!</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, voluptate iusto consequatur, soluta voluptates deserunt excepturi sequi nobis, odio minima odit autem facilis eum modi porro accusamus dignissimos natus quod? Ipsa unde quas facere exercitationem.</p> 
         </div>
-        <img src="https://via.placeholder.com/150"/>
+        <img :src="imageAttributer('src', authorName )" :alt="imageAttributer('alt', authorName )"/>
+
     </div>
 </template>
 
@@ -13,20 +18,28 @@
 
 export default {
     data() {
-return {
-    // spotlight: 'test'
-}
+        return {
+            imageSrc: `/assets/authors/`,
+            imageAlt: `Photograph of Science Fiction author`,
+        }
     },
     props: {
         authorName: String
     },
     methods: {
         findAuthor(name, authorRecords){
-            for (var i=0; i < authorRecords.length; i++) {
+            for (let i=0; i < authorRecords.length; i++) {
                 if (authorRecords[i].name === name) {
                     return authorRecords[i];
                 }
             }
+        },
+        imageAttributer(attribute, author) {
+            if (attribute === 'src') return `${this.imageSrc}${author}.jpg`
+            if (attribute === 'alt') return `${this.imageAlt} ${this.cleanAuthorName(author)}`
+        },
+        cleanAuthorName(webSafeName) {
+            return webSafeName.replace(/_/g, " ")
         }
     }
 }
@@ -34,17 +47,16 @@ return {
 
 <style lang="scss" scoped>
 #author-spotlight {
-
     display:flex;
-    flex-direction: row;
     border: 1px solid;
     min-height: 10rem;
     text-align: left;
-h3 { width: 40%;
+    h3 { 
+        width: 40%;
         text-align: left;
         margin-left: 1rem;
     }
-    .bio {
+    .author_bio {
         margin: 0 1rem
     }
     img {

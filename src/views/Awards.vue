@@ -2,17 +2,16 @@
     <div class="content">
         <h1>Science Fiction Literary Awards</h1>
         <div id="award-category-selector">
-
-        <button @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</button>
-        <button @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</button>
-        <app-award-table :selectedAward="displayCategory" :who="awarder" :what="category"></app-award-table>
+            <button @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</button>
+            <button @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</button>
+            <app-award-table :selectedAward="displayCategory" :who="awarder" :what="category"></app-award-table>
         </div>
     </div>
 </template>
 
 <script>
 import awardTable from '@/components/AwardTable.vue'
-import awardDataService from '@/services/award-data-service.js'
+import sfDataService from '@/services/sf-data-service.js'
 
 export default { 
     data() {
@@ -29,7 +28,7 @@ export default {
             //The two regex below break out the file  an object names to pass it down to the component as a header
             this.awarder = awardBody.replace(/_/g, " ")
             this.category = extractCategory.replace(/([A-Z])/g, ' $1')
-            awardDataService.fetchTextRecords(awardBody)
+            sfDataService.fetchTextRecords(awardBody)
             .then((jsonData) => {
                 let awardHistory = jsonData.results
                 this.displayCategory = awardHistory[0][extractCategory] 
