@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> | 
-      <router-link to="/authors">Authors</router-link> |
-      <router-link to="/awards">Awards</router-link> |
-      <router-link to="/masterworks">Masterworks</router-link>
-    </div>
+    <md-tabs class="md-primary" md-alignment="centered">
+      <md-tab id="tab-home" md-label="Home" to="/"></md-tab>
+      <md-tab id="tab-about" md-label="About" to="/about"></md-tab>
+      <md-tab id="tab-authors" md-label="Authors" to="/authors"></md-tab>
+      <md-tab id="tab-awards" md-label="Awards" to="/awards"></md-tab>
+      <md-tab id="tab-masterworks" md-label="Masterworks" to="/masterworks"></md-tab>
+    </md-tabs>
     <router-view/>
     <app-footer></app-footer>
   </div>
@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss">
 
-
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
 #nav {
   padding: 30px;
   a { 

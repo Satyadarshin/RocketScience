@@ -1,20 +1,24 @@
 <template>
   <div class="authors content">
-      <table>
+      <md-table>
           <thead>
-            <th 
+              <md-table-row>
+          <md-table-head
                 v-for="(column, index) in columns"
                 :key="index"
                 >
                 <span @click="sortBy(column)">{{ column }}</span>
-            </th>
+          </md-table-head>
+          </md-table-row>
           </thead>
         <tbody>
-        <tr v-for="author in sortedAuthors" :key="author.id">
-            <td><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></td><td>{{ author.born }}</td><td>{{ author.died }}</td>
-        </tr>
+        <md-table-row v-for="author in sortedAuthors" :key="author.id">
+            <md-table-cell><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></md-table-cell>
+            <md-table-cell>{{ author.born }}</md-table-cell>
+            <md-table-cell>{{ author.died }}</md-table-cell>
+        </md-table-row>
         </tbody>
-    </table>
+    </md-table>
   </div>
 </template>
 
@@ -61,54 +65,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-table {
-    margin: 1rem 0;
-    width: 100%;
-    border-collapse: collapse;
-    caption {
-        padding: 1rem 0;
-        background-color: $table-caption;
-        color:$white;
-        span {
-            text-transform: capitalize;
-        }
-    } 
-    td, th { 
-        padding: .5rem  0 .5rem .25rem;
-    }
-    td { 
-        &:first-child {
-            text-align: left;
-        }
-        &:nth-child(2) { 
-            text-align: right 
-        }   
-        &:last-child { 
-            text-align: left; 
-            padding-left: 1rem;   
-        }
-    } 
-    tbody {
-        tr:nth-child(odd) {
-            background-color: $lightgrey;
-        }
-    }
-    thead {
-        tr{
-            border-bottom: 1px solid $table-border;
-            th { 
-                &:first-child {
-                    text-align: left;
-                    width: 12rem
-                }
-                span {
-                    text-decoration: none;
-                    color: $oil;
-                    text-transform: capitalize;
-                }
-                cursor: pointer
-            }
-        }
-    }
-}
+
 </style>

@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
+
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    text-align: center;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     color: $oil;
 }
-
+h1 {
+    font-weight: 500;
+}
+p, td, th, li {
+    font-weight: 200
+}
 a { 
     text-decoration: none;
 }

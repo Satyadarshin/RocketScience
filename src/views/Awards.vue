@@ -1,12 +1,22 @@
 <template>
-    <div class="content">
-        <h1>Science Fiction Literary Awards</h1>
+
+  <div class="md-layout">
+    <div class="md-layout-item">
+      <h1>Science Fiction Literary Awards</h1>  
         <div id="award-category-selector">
-            <button @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</button>
-            <button @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</button>
-            <app-award-table :selectedAward="displayCategory" :who="awarder" :what="category"></app-award-table>
+            <md-button class="md-raised md-primary" @click="viewAwardCategory(hugoAward, 'bestNovel')">Hugo Award for Best Novel</md-button>
+            <md-button class="md-raised md-primary" @click="viewAwardCategory(nebulaAward, 'bestNovel')">Nebula Award for Best Novel</md-button>
         </div>
     </div>
+    <div class="md-layout-item">
+        <app-award-table :selectedAward="displayCategory" :who="awarder" :what="category"></app-award-table>
+    </div>
+  </div>
+
+
+
+        
+
 </template>
 
 <script>
@@ -46,13 +56,13 @@ export default {
 
 <style lang="scss" scoped>
 #award-category-selector {
-    button { 
-        border-radius: 2px;
-        background-color: lightblue; 
-        border: none; 
-        height: 2.5rem; 
-        width: 10rem; 
-        margin: 0 .25rem;
-    }
+    // button { 
+    //     border-radius: 2px;
+    //     background-color: lightblue; 
+    //     border: none; 
+    //     height: 2.5rem; 
+    //     width: 10rem; 
+    //     margin: 0 .25rem;
+    // }
 }
 </style>
