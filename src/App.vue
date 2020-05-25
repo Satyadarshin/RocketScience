@@ -7,7 +7,9 @@
       <md-tab id="tab-awards" md-label="Awards" to="/awards"></md-tab>
       <md-tab id="tab-masterworks" md-label="Masterworks" to="/masterworks"></md-tab>
     </md-tabs>
-    <router-view/>
+    <main id="content">
+      <router-view/>
+    </main>
     <app-footer></app-footer>
   </div>
 </template>

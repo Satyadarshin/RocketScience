@@ -1,25 +1,29 @@
 <template>
-  <div class="authors content">
-      <md-table>
-          <thead>
-              <md-table-row>
-          <md-table-head
-                v-for="(column, index) in columns"
-                :key="index"
+    <div class="content">
+        <md-table>
+            <thead>
+                <md-table-row>
+                    <md-table-head
+                        v-for="(column, index) in columns"
+                        :key="index"
+                        >
+                        <span @click="sortBy(column)">{{ column }}</span>
+                    </md-table-head>
+                </md-table-row>
+            </thead>
+            <tbody>
+                <md-table-row 
+                    v-for="author in sortedAuthors" 
+                    :key="author.id"
+                    itemscope itemtype="http://schema.org/author"
                 >
-                <span @click="sortBy(column)">{{ column }}</span>
-          </md-table-head>
-          </md-table-row>
-          </thead>
-        <tbody>
-        <md-table-row v-for="author in sortedAuthors" :key="author.id">
-            <md-table-cell><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></md-table-cell>
-            <md-table-cell>{{ author.born }}</md-table-cell>
-            <md-table-cell>{{ author.died }}</md-table-cell>
-        </md-table-row>
-        </tbody>
-    </md-table>
-  </div>
+                    <md-table-cell><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></md-table-cell>
+                    <md-table-cell>{{ author.born }}</md-table-cell>
+                    <md-table-cell>{{ author.died }}</md-table-cell>
+                </md-table-row>
+            </tbody>
+        </md-table>
+    </div>
 </template>
 
 <script>
