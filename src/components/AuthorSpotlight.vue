@@ -1,16 +1,36 @@
 <template>
-    <div id="author-spotlight" class="content"> 
-        <div class="author_summary">
-            <h3>{{ cleanAuthorName(authorName) }}</h3>
-            <p>Born &ndash; died?</p>
-            <p><a href="#">Web</a></p>
-        </div>
-        <div class="author_bio">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, facilis!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, voluptate iusto consequatur, soluta voluptates deserunt excepturi sequi nobis, odio minima odit autem facilis eum modi porro accusamus dignissimos natus quod? Ipsa unde quas facere exercitationem.</p> 
-        </div>
-        <img :src="imageAttributer('src', authorName )" :alt="imageAttributer('alt', authorName )"/>
+    <div id="author-spotlight" class="card-expansion">
+        <md-card md-with-hover>
+            <md-card-media>
+                <img :src="imageAttributer('src', authorName )" :alt="imageAttributer('alt', authorName )"/>
+            </md-card-media>
 
+            <md-card-header>
+                <div class="md-title">{{ cleanAuthorName(authorName) }}</div>
+                <div class="md-subhead">Born &ndash; died?</div>
+            </md-card-header>
+
+            <md-card-expand>
+                <md-card-actions md-alignment="space-between">
+                    <div>
+                        <md-button><a href="#">Works</a></md-button>
+                        <md-button><a href="#">Website</a></md-button>
+                    </div>
+
+                    <md-card-expand-trigger>
+                        <md-button class="md-icon-button">
+                            <md-icon>keyboard_arrow_down</md-icon>
+                        </md-button>
+                    </md-card-expand-trigger>
+                </md-card-actions>
+
+                <md-card-expand-content>
+                    <md-card-content>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.</p>
+                    </md-card-content>
+                </md-card-expand-content>
+            </md-card-expand>
+        </md-card>
     </div>
 </template>
 
@@ -46,21 +66,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#author-spotlight {
-    display:flex;
-    border: 1px solid;
-    min-height: 10rem;
-    text-align: left;
-    h3 { 
-        width: 40%;
-        text-align: left;
-        margin-left: 1rem;
-    }
-    .author_bio {
-        margin: 0 1rem
-    }
-    img {
-        width: 30%;
-    }
- }
+#author-spotlight{
+
+max-width: 30rem
+}
 </style>

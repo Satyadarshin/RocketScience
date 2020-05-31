@@ -1,9 +1,15 @@
 <template>
-  <div class="authors content">
+<div id="authors">
     <h2>Authors</h2>
     <p>This is a reference for SF authors of <em>significance</em>, that is an author that has either won or been nominated for a literary award for a text that is recgnised as Science Fiction.</p>
+  <div class="md-layout">
+   <div class="md-layout-item">
     <app-author-spotlight :authorName="spotlightOn"></app-author-spotlight> 
-    <app-author-table :authorList="authors"></app-author-table>
+   </div>
+    <div class="md-layout-item">
+      <app-author-table :authorList="authors"></app-author-table>
+    </div>
+    </div>
   </div>
 </template>
 

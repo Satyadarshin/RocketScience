@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <md-table md-fixed-header>
+        <md-table>
             <md-table-toolbar>
                 <caption v-if="selectedAward.length === 0">Choose an Award category, above</caption>
                 <caption v-else>Your selected award category is the <span>{{ who }}</span> for <span>{{ what }}</span></caption>
@@ -39,7 +39,7 @@
                     itemscope itemtype="http://schema.org/Book"
                 >
                     <md-table-cell>{{ award.year }}</md-table-cell>
-                    <md-table-cell itemprop="author"><router-link :to="`/authors/${award.winner.author}`">{{ award.winner.author }}</router-link></md-table-cell>
+                    <md-table-cell itemprop="creator"><router-link :to="`/authors/${award.winner.author}`">{{ award.winner.author }}</router-link></md-table-cell>
                     <md-table-cell itemprop="name">{{ award.winner.title }}</md-table-cell>
                 </md-table-row>
             </tbody>
@@ -54,7 +54,7 @@ export default {
             search: '',
             sortKey: 'year',
             sortDirection: 'asc',
-            columns: ['Year', 'Author','Title']
+            columns: ['year', 'author','title']
         }
     },
     props: {
@@ -93,55 +93,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// table {
-//     margin: 1rem 0;
-//     width: 100%;
-//     border-collapse: collapse;
-//     caption {
-//         padding: 1rem 0;
-//         background-color: $table-caption;
-//         color:$white;
-//         span {
-//             text-transform: capitalize;
-//         }
-//     } tbody {
-
-//     tr:nth-child(odd) {
-//         background-color: $lightgrey;
-//     }
-//     }
-//     td, th { 
-//         padding: .5rem  0 .5rem .25rem;
-//     }
-//     td { 
-//         &:first-child {
-//             text-align: left;
-//             width: 6rem
-//         }
-//         &:nth-child(2) { 
-//             text-align: left 
-//         }   
-//         &:last-child { 
-//             text-align: left; 
-//             padding-left: 1rem;   
-//         }
-//     } 
-//     thead {
-//         tr{
-//             border-bottom: 1px solid $table-border;
-//         }
-//         th { 
-//             text-align: left;
-//             &:first-child {
-//                 width: 6rem
-//             }
-//             span {
-//                 text-decoration: none;
-//                 color: $oil;
-//                 text-transform: capitalize;
-//             }
-//             cursor: pointer
-//         }
-//     }
-// }
+table {
+    th {
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+}
 </style>
