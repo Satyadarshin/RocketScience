@@ -5,6 +5,7 @@ import About from '../views/About.vue';
 import Authors from '../views/Authors.vue';
 import Awards from '../views/Awards.vue';
 import Masterworks from '../views/Masterworks.vue';
+import Spotlight from '../components/AuthorSpotlight';
 
 Vue.use(VueRouter);
 
@@ -20,10 +21,16 @@ const routes = [
     component: About,
   },
   {
-    path: '/authors/:spotlightOn',
+    path: '/authors',
     name: 'Authors',
     component: Authors,
-    props: true
+    children: [
+      {
+        path: ':authorName',
+        component: Spotlight,
+        props: true,
+      },
+    ]
   },
   {
     path: '/awards',
