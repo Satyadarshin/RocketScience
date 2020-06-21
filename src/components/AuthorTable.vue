@@ -17,7 +17,6 @@
                     :key="author.id"
                     itemscope itemtype="http://schema.org/author"
                 >
-                    <!-- <md-table-cell>{{ author.name }}</md-table-cell> -->
                     <md-table-cell><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></md-table-cell>
                     <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
                     <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
