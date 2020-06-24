@@ -13,7 +13,7 @@
             </thead>
             <tbody>
                 <md-table-row
-                    v-for="author in sortedAuthors"
+                    v-for="author in paginatedTable"
                     :key="author.id"
                     itemscope itemtype="http://schema.org/author"
                 >
@@ -34,7 +34,9 @@ export default {
             sortKey: 'name',
             sortDirection: 'asc',
             columns: ['name', 'born', 'died'],
-            theDate: ''
+            theDate: '',
+            pageSize:10,
+            currentPage:1
         }
     },
     props: {
@@ -47,7 +49,7 @@ export default {
             }
             this.sortKey = sortCriteria
         },
-                lastFirstLastNameURL: ( lastFirstName ) => {
+        lastFirstLastNameURL: ( lastFirstName ) => {
             //Make an SEO friendly URL.
             //Reverse to first-surname order, and replace space and commas with underscores to be properly formatted URLs
             let firstLastName = ""
@@ -57,6 +59,7 @@ export default {
     },
     filters: {
        dateFormat: (bornDied) => {
+           if (bornDied === '') return
             const months = {
                 "01": "January",
                 "02": "February",
@@ -88,6 +91,15 @@ export default {
                 if(a[this.sortKey] > b[this.sortKey]) return 1 * modifier
                 return 0;
             })
+        },
+        pageCount() {
+            let length = this.sortedAuthors.length
+            return Math.ceil(length/this.pageSize)
+        }, 
+        paginatedTable() {
+            const start = this.currentPage * this.pageSize
+            const end = start +this.pageSize
+            return this.sortedAuthors.slice(start, end)
         }
     }
 }
