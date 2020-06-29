@@ -5,7 +5,7 @@
         </div>
         <div class="md-layouot-item">
             <md-button class="md-icon-button md-raised">
-                <md-icon>home</md-icon>
+                <a href="/"><md-icon>home</md-icon></a>
             </md-button>
         </div>
     </footer>

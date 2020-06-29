@@ -21,11 +21,16 @@
                 </md-table-row>
             </thead>
             <tfoot>
-                <md-table-row colspan="3">
+                <md-table-row>
                     <md-table-cell>
                        <md-button class="md-icon-button md-raised">
                             <md-icon>keyboard_arrow_left</md-icon>
                         </md-button> 
+                     </md-table-cell> 
+                     <md-table-cell> 
+                         1
+                     </md-table-cell>
+                    <md-table-cell>
                         <md-button class="md-icon-button md-raised">
                             <md-icon>keyboard_arrow_right</md-icon>
                         </md-button>
@@ -46,12 +51,13 @@
         </md-table>
     </div>
 </template>
-authorList
+
 <script>
 export default {
     data: () => {
         return {
             search: '',
+            searched: [],
             sortKey: 'year',
             sortDirection: 'asc',
             columns: ['year', 'author','title']
@@ -68,7 +74,10 @@ export default {
                 this.sortDirection = (this.sortDirection === 'asc') ? 'desc':'asc' 
             }
             this.sortKey = sortCriteria
-        }
+        },
+        searchOnTable () {
+            this.searched = searchByName(this.users, this.search)
+      }
     },
     filters: {
             lastFirstLastNameURL: ( lastFirstName ) => {
@@ -88,6 +97,9 @@ export default {
                 return 0;
             })
         }
+    },
+    created () {
+        this.searched = this.sortedWinners
     }
 }
 </script>

@@ -1,50 +1,60 @@
 <template>
     <div>
         <md-table>
-            <thead>
-                <md-table-row>
-                    <md-table-head
-                        v-for="(column, index) in columns"
-                        :key="index"
-                        >
-                        <span @click="sortBy(column)">{{ column }}</span>
-                    </md-table-head>
-                </md-table-row>
-            </thead>
-            <tbody>
-                <md-table-row
-                    v-for="author in paginatedTable"
-                    :key="author.id"
-                    itemscope itemtype="http://schema.org/author"
-                >
-<<<<<<< HEAD
-                    <md-table-cell><router-link :to="author.name | lastFirstLastNameURL">{{ author.name }}</router-link></md-table-cell>
-=======
-                    <!-- <md-table-cell>{{ author.name }}</md-table-cell> -->
-                    <md-table-cell><router-link :to="'/authors/' + lastFirstLastNameURL(author.name)">{{ author.name }}</router-link></md-table-cell>
->>>>>>> will-050620
-                    <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
-                    <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
-                </md-table-row>
-            </tbody>
+            <md-table-toolbar>
+        <div class="md-toolbar-section-start">
+          <h1 class="md-title">Authors</h1>
+        </div>
+
+        <md-field md-clearable class="md-toolbar-section-end">
+          <!-- <md-input placeholder="Search by name..." v-model="search" @input="searchOnTable" /> -->
+          <md-input placeholder="Search by name..." v-model="search" />
+        </md-field>
+      </md-table-toolbar> 
+            <md-table-row>
+                <md-table-head
+                    v-for="(column, index) in columns"
+                    :key="index"
+                    >
+                    <span @click="sortBy(column)">{{ column }}</span>
+                </md-table-head>
+            </md-table-row>
+            <md-table-row 
+            md-selectable="single"
+                v-for="author in resultQuery"
+                :key="author.id"
+                itemscope itemtype="http://schema.org/author"
+            >
+                <md-table-cell><router-link :to="'/authors/' + lastFirstLastNameURL(author.name)">{{ author.name }}</router-link></md-table-cell>
+                <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
+                <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
+            </md-table-row>
+            <app-pagination-switcher :pagination="paginationLength" />
         </md-table>
     </div>
 </template>
 
 <script>
+import PaginationSwitcher from '@/components/PaginationSwitcher'
 export default {
     data() {
         return {
+            search: '', //for table search
+            searched: [], //for table search
             sortKey: 'name',
             sortDirection: 'asc',
             columns: ['name', 'born', 'died'],
             theDate: '',
-            pageSize:10,
-            currentPage:1
+            pageSize: 10,
+            currentPage: 1,
+            paginationLength: 1
         }
     },
     props: {
         authorList: Array
+    },
+    components: {
+        appPaginationSwitcher: PaginationSwitcher
     },
     methods: {
         sortBy(sortCriteria) {
@@ -59,7 +69,13 @@ export default {
             let firstLastName = ""
             return firstLastName = lastFirstName.split(", ").reverse().join(" ").replace(/[ ,]/g, "_")
         },
-
+        pageSwitcher() {
+            // console.log (this.pageCount)
+            const totalPageSet = this.pageCount
+            // for (i=0, i <= totalPageSet, i++) {
+            //    let  
+            //}
+        },      
     },
     filters: {
        dateFormat: (bornDied) => {
@@ -96,14 +112,26 @@ export default {
                 return 0;
             })
         },
+       
         pageCount() {
-            let length = this.sortedAuthors.length
-            return Math.ceil(length/this.pageSize)
+            this.paginationLength = this.sortedAuthors.length
+            return Math.ceil(this.paginationLength/this.pageSize)
         }, 
         paginatedTable() {
             const start = this.currentPage * this.pageSize
             const end = start +this.pageSize
+            this.pageSwitcher()
             return this.sortedAuthors.slice(start, end)
+        },
+        resultQuery(){
+            if(this.search){
+                return this.sortedAuthors.filter((item)=>{
+                    return this.search.toLowerCase().split(' ').every(v => item.name.toLowerCase().includes(v))
+                })
+            }
+            else {
+                return this.paginatedTable;
+            }
         }
     }
 }
