@@ -6,18 +6,8 @@
             </md-button> 
             </md-table-cell> 
             <md-table-cell>
-                <button class="test">
-                     <a href="#">1</a>
-                </button>
-                <button class="test">
-                     <a href="#">2</a>
-                </button>
-                 <button class="test">
-                     <a href="#">3</a>
-                </button>
-               <span> ... </span>
-                <button class="test">
-                     <a href="#">10</a>
+                <button v-for="page in pagination" class="test">
+                     <a href="#">{{page}}</a>
                 </button>
             </md-table-cell>
             <md-table-cell>
@@ -36,7 +26,7 @@ export default {
         }
     },
     props: {
-        pagination: Number
+        pagination: Array
     },
     computed: {
         // pages() {
@@ -52,7 +42,8 @@ export default {
     width: 1.9rem;
     border-radius: 3px; 
     height: 2.1rem;
-    border: 1px solid gray; margin-right: .25rem;
+    border: 1px solid #949494; 
+    margin-right: .25rem;
     a { 
         color: black !important; 
         font-size: .9rem;
@@ -66,7 +57,7 @@ export default {
         display: block;
         border-radius: 3px;
         border: 1px solid white;
-        background-color: silver;
+        background-color: #e0e0e0;
         &:hover { 
             color: white !important;
             text-decoration: none;

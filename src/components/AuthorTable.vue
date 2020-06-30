@@ -20,7 +20,6 @@
                 </md-table-head>
             </md-table-row>
             <md-table-row 
-            md-selectable="single"
                 v-for="author in resultQuery"
                 :key="author.id"
                 itemscope itemtype="http://schema.org/author"
@@ -112,16 +111,17 @@ export default {
                 return 0;
             })
         },
-       
         pageCount() {
-            this.paginationLength = this.sortedAuthors.length
-            return Math.ceil(this.paginationLength/this.pageSize)
+            const length = this.sortedAuthors.length
+            // this.paginationLength = Object.keys( this.resultQuery )
+            return Math.ceil(length/this.pageSize)
         }, 
         paginatedTable() {
             const start = this.currentPage * this.pageSize
             const end = start +this.pageSize
-            this.pageSwitcher()
-            return this.sortedAuthors.slice(start, end)
+            const paginated = this.sortedAuthors.slice(start, end)
+            this.paginationLength = Object.keys(paginated)
+            return paginated
         },
         resultQuery(){
             if(this.search){
