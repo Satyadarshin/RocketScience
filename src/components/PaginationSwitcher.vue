@@ -6,7 +6,10 @@
             </md-button> 
             </md-table-cell> 
             <md-table-cell>
-                <button v-for="page in pagination" class="test">
+                <button 
+                    v-for="button in buttons" 
+                    :key="button"
+                class="button">
                      <a href="#">{{page}}</a>
                 </button>
             </md-table-cell>
@@ -22,30 +25,34 @@
 export default {
     data(){
         return {
-            page: 1
+            buttons: []
         }
     },
     props: {
-        pagination: Array
+        range: Number,
+        position: Number
     },
     computed: {
-        // pages() {
-        //     return pages = this.pagination
-        // } 
+        buttons() {
+      // return a set of buttons:
+      // current page +2 possible steps forward, but not greater than the total number of paginted pages
+      // cuurent page -2 possible steps backward, but not less than 1
+        }
+
     }
 }
 </script>
 
 <style lang="scss" scoped>
-.test { 
-    //display:block;
+.button { 
+    display:inline-block;
     width: 1.9rem;
     border-radius: 3px; 
     height: 2.1rem;
     border: 1px solid #949494; 
-    margin-right: .25rem;
+    margin: 0 .25rem .25rem 0;
     a { 
-        color: black !important; 
+        color: $oil !important; 
         font-size: .9rem;
         height: 2rem; 
         padding-top: .25rem;  

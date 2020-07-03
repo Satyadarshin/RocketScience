@@ -28,7 +28,7 @@
                 <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
                 <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
             </md-table-row>
-            <app-pagination-switcher :pagination="paginationLength" />
+            <app-pagination-switcher :range="count" :position="currentPage" />
         </md-table>
     </div>
 </template>
@@ -46,7 +46,7 @@ export default {
             theDate: '',
             pageSize: 10,
             currentPage: 1,
-            paginationLength: 1
+            count: 1
         }
     },
     props: {
@@ -113,14 +113,13 @@ export default {
         },
         pageCount() {
             const length = this.sortedAuthors.length
-            // this.paginationLength = Object.keys( this.resultQuery )
-            return Math.ceil(length/this.pageSize)
+            return this.count = Math.ceil(length/this.pageSize)
         }, 
         paginatedTable() {
             const start = this.currentPage * this.pageSize
-            const end = start +this.pageSize
+            const end = start + this.pageSize
             const paginated = this.sortedAuthors.slice(start, end)
-            this.paginationLength = Object.keys(paginated)
+            //this.paginationLength = Object.keys(paginated)
             return paginated
         },
         resultQuery(){

@@ -6,6 +6,7 @@ import Authors from '../views/Authors.vue';
 import Awards from '../views/Awards.vue';
 import Masterworks from '../views/Masterworks.vue';
 import Spotlight from '../components/AuthorSpotlight';
+import Texts from '../views/Texts';
 
 Vue.use(VueRouter);
 
@@ -41,6 +42,11 @@ const routes = [
     path: '/masterworks',
     name: 'Masterworks',
     component: Masterworks,
+  },
+  {
+    path: '/texts',
+    name: 'Texts',
+    component: Texts,
   }
 ];
 
