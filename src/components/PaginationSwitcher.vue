@@ -1,7 +1,7 @@
 <template>
     <md-table-row>
         <md-table-cell>
-            <md-button class="md-icon-button md-raised">
+            <md-button class="md-icon-button md-raised" @click="previousPage">
                 <md-icon>keyboard_arrow_left</md-icon>
             </md-button> 
             </md-table-cell> 
@@ -14,7 +14,7 @@
                 </button>
             </md-table-cell>
             <md-table-cell>
-            <md-button class="md-icon-button md-raised">
+            <md-button class="md-icon-button md-raised" @click="nextPage">
                 <md-icon>keyboard_arrow_right</md-icon>
             </md-button>
         </md-table-cell>
@@ -25,13 +25,26 @@
 export default {
     data(){
         return {
-            buttons: []
+            buttons: [],
+            pageNumber: 1,
+            traverse: 0
         }
     },
     props: {
-        range: Number,
-        position: Number
+        paginationRange: Number,
+        pagePosition: Number
     },
+    methods: 
+    {
+        nextPage(){
+            this.traverse = this.pageNumber++
+            this.$emit('update', this.traverse )
+        },
+        previousPage(){
+            this.traverse = this.pageNumber--
+            this.$emit('update', this.traverse )
+        }
+},
     computed: {
         buttons() {
       // return a set of buttons:

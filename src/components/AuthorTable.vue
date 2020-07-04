@@ -2,15 +2,23 @@
     <div>
         <md-table>
             <md-table-toolbar>
-        <div class="md-toolbar-section-start">
-          <h1 class="md-title">Authors</h1>
-        </div>
-
-        <md-field md-clearable class="md-toolbar-section-end">
-          <!-- <md-input placeholder="Search by name..." v-model="search" @input="searchOnTable" /> -->
-          <md-input placeholder="Search by name..." v-model="search" />
-        </md-field>
-      </md-table-toolbar> 
+                <div class="md-toolbar-section-start">
+                    <div class="md-layout-item">
+                    <md-field>
+                        <md-select v-model="pageSize" name="pageSize" id="pageSize" placeholder="Number of rows">
+                            <!-- <md-option value="10">10</md-option> -->
+                            <md-option value="25">25</md-option>
+                            <md-option value="50">50</md-option>
+                            <md-option value="75">75</md-option>
+                            <md-option value="100">100</md-option>
+                        </md-select>
+                    </md-field>
+                    </div>
+                </div>
+                <md-field md-clearable class="md-toolbar-section-end">
+                    <md-input placeholder="Search by name..." v-model="search" />
+                </md-field>
+            </md-table-toolbar> 
             <md-table-row>
                 <md-table-head
                     v-for="(column, index) in columns"
@@ -28,7 +36,7 @@
                 <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
                 <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
             </md-table-row>
-            <app-pagination-switcher :range="count" :position="currentPage" />
+            <app-pagination-switcher :paginationRange="count" :pagePosition="currentPage" @update="travesePagination" />
         </md-table>
     </div>
 </template>
@@ -69,12 +77,11 @@ export default {
             return firstLastName = lastFirstName.split(", ").reverse().join(" ").replace(/[ ,]/g, "_")
         },
         pageSwitcher() {
-            // console.log (this.pageCount)
             const totalPageSet = this.pageCount
-            // for (i=0, i <= totalPageSet, i++) {
-            //    let  
-            //}
-        },      
+        },    
+        travesePagination(traverse) {
+            this.currentPage = traverse
+        }  
     },
     filters: {
        dateFormat: (bornDied) => {
@@ -87,7 +94,9 @@ export default {
                 "05": "May",
                 "06": "June",
                 "07": "July",
-                "08": "August",
+                "08": "August",            // for (i=0, i <= totalPageSet, i++) {
+            //    let  
+            //}
                 "09": "September",
                 "10": "October",
                 "11": "November",

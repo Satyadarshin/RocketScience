@@ -7,6 +7,15 @@
             <md-button class="md-icon-button md-raised">
                 <a href="/"><md-icon>home</md-icon></a>
             </md-button>
+            <md-button class="md-icon-button md-raised">
+                <a href="/authors"><md-icon>person</md-icon></a>
+            </md-button>
+            <md-button class="md-icon-button md-raised">
+                <a href="/texts"><md-icon>book</md-icon></a>
+            </md-button>
+            <md-button class="md-icon-button md-raised">
+                <a href="/awards"><md-icon>star_rate</md-icon></a>
+            </md-button>
         </div>
     </footer>
 </template>
