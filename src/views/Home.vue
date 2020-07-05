@@ -13,12 +13,18 @@
       <section class="band-c">
         <h3>Recommended Reading</h3>
         <div class="recommended">
-          <img src="/assets/publications/Dispossessed_UrsulaKLeGuin.jpg" alt="">
-          <img src="/assets/publications/Dune_FrankHerbert.jpg" alt="">
-          <img src="/assets/publications/TheHandmaidsTale_MargaretAttwood.png" alt="">
-          <img src="/assets/publications/TheManInTheHighCastle_PhillipKDick.jpg" alt="">
-          <img src="/assets/publications/Stars_my_destination_AlfredBester.jpg" alt="">
-          <img src="/assets/publications/TheForeverWar_JoeHaldeman.jpg" alt="">
+          <img src="/assets/publications/The-Dispossessed_Ursula-K-Le-Guin.jpg" alt="">
+          <img src="/assets/publications/Dune_Frank-Herbert.jpg" alt="">
+          <img src="/assets/publications/The-Handmaids-Tale_Margaret-Attwood.png" alt="">
+          <img src="/assets/publications/The-Man-In-The-High-Castle_Phillip-K-Dick.jpg" alt="">
+          <img src="/assets/publications/The-Stars-My-Destination_Alfred-Bester.jpg" alt="">
+          <img src="/assets/publications/The-Forever-War_Joe-Haldeman.jpg" alt="">
+          <img src="/assets/publications/Neuromancer_William-Gibson.jpg" alt="">
+          <img src="/assets/publications/Babel-17_Samuel-R-Delaney.jpg" alt="">
+          <img src="/assets/publications/Flowers-For-Algernon_Daniel-Keyes.jpg" alt="">
+          <img src="/assets/publications/The-Three-Body-Problem_Liu-Cixin.jpg" alt="">
+          <img src="/assets/publications/The-Chrysalids_John-Wyndham.jpg" alt="">
+          <img src="/assets/publications/Foundation_Isaac-Asimov.jpg" alt="">
         </div>
       </section>
   </div>
@@ -35,12 +41,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.content {
+  width: 1000px;
+}
 .band-a {
   display: flex;
   h2 {
     margin: 1rem 0;
   }
-  blockquote {
+  blockquote { 
+    width:75%;
     margin-top: 0;
     p:first-child { 
       line-height: 1.5;   
@@ -50,9 +60,18 @@ export default {
 }
 .band-c {
   background-color: silver;
+  h3 {
+    margin: 1rem; padding-top: 1rem;
+  }
   .recommended {
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
     display: flex;
-    img {
+    img { 
+      // margin-right: 4px;
+      margin-top: 6px;
       height: 250px
     }
   }
