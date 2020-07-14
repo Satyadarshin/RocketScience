@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import sfDataService from '@/services/sf-data-service.js'
+import sfApiService from '@/services/sf-api-service'
 import authorSpotlight from '@/components/AuthorSpotlight'
 import authorTable from '@/components/AuthorTable'
 
@@ -32,9 +32,9 @@ export default {
     appAuthorSpotlight: authorSpotlight
   },
   mounted() {
-    sfDataService.fetchTextRecords('authors')
+    sfApiService.fetchGenreCollection('authors')
     .then((jsonData) => {
-        this.authors = jsonData.results
+        this.authors = jsonData
     })
     .catch((error) => {
         console.error('Error:', error);
