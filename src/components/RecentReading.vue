@@ -14,7 +14,7 @@
                     <p>Nam fermentum bibendum elementum. Nunc mi justo, suscipit viverra dui id, eleifend laoreet felis. Aliquam imperdiet viverra faucibus. Nulla nec feugiat justo. Nam ut finibus quam. Suspendisse potenti. Ut mauris tellus, tempor eu enim eget, elementum tempor dui. Nullam bibendum, mi malesuada hendrerit commodo, magna ex semper nulla, malesuada tincidunt turpis sem sed sapien. Curabitur pellentesque efficitur eros in faucibus. Nam suscipit erat eget urna tempus, ac condimentum libero feugiat. Fusce fringilla, felis id suscipit elementum, ligula lorem fringilla metus, eget convallis enim turpis in urna. Quisque accumsan justo ut semper rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class= "bookcover">    
-                    <img  src="/assets/publications/Pavane_KeithRoberts.jpg" alt="" />
+                    <img  src="/assets/publications/Pavane_Keith-Roberts.jpg" alt="" />
                 </div>
             </div>
         </div>
