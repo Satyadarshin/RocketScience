@@ -29,7 +29,8 @@ router.get('/', async (req, res) => {
 
 async function loadAuthorsCollection() {
   const client = await mongodb.MongoClient.connect(
-   'mongodb+srv://saturnV:apollo11@cluster0.pne15.mongodb.net/̣',
+    // Username: password pair redacted from the Github repo for security
+   'mongodb+srv://<username>:<password>@cluster0.pne15.mongodb.net/̣',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true 

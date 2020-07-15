@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   lintOnSave: false,
   css: {
@@ -6,5 +8,12 @@ module.exports = {
         prependData: `@import "@/scss/global.scss";`
       }
     }
-  }
+  },
+  devServer: {
+    proxy: {
+        '/api': {
+            target: 'http://localhost:5000'
+        }
+    }
+}
 }
