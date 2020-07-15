@@ -1,24 +1,15 @@
-# rocket-science
+# Rocket Science
+This is a full-stack Javascript SPA applying MongoDB, Express.js, Vue.js, and Node.js (MEVN).
 
-## Project setup
-```
-npm install
-```
+## MongoDB
+The connection string has had the usernhame : password pair redacted for security.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Express
+Runs under port 5000
+    cd server 
+    npm run dev
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Vue
+runs under port 8080
+    cd client
+    npm run serve
