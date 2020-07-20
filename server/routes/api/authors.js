@@ -5,12 +5,10 @@ const router = express.Router();
 
 // Get authors
 router.get('/', async (req, res) => {
-  // const query = req.query;
-  // const parameter = Object.keys(query);
-  // const value = Object.values(query);
+  const query = req.query;
   try {
     const authors = await loadAuthorsCollection();
-    res.send(await authors.find({}).toArray());
+    res.send(await authors.find(query).toArray());
   } catch (error) {
     return console.log(error)  
   }
