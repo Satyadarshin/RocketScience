@@ -17,8 +17,7 @@ router.get('/', async (req, res) => {
 async function loadAuthorsCollection() {
   const client = await mongodb.MongoClient.connect(
     // Username: password pair redacted from the Github repo for security
-   `mongodb+srv://${process.env.VUE_APP_MONGODB_USER}:${process.env.VUE_APP_MONGODB_PASSWORD}@cluster0.pne15.mongodb.net/̣`,
-    {
+   `mongodb+srv://${process.env.VUE_APP_MONGODB_USER}:${process.env.VUE_APP_MONGODB_PASSWORD}@cluster0.pne15.mongodb.net/̣`, {
       useNewUrlParser: true,
       useUnifiedTopology: true 
     }
