@@ -1,5 +1,38 @@
 const express = require('express');
 const mongodb = require('mongodb');
+//const mongoose = require('mongoose');
+// const mongoDB = `mongodb+srv://${process.env.VUE_APP_MONGODB_USER}:${process.env.VUE_APP_MONGODB_PASSWORD}@cluster0.pne15.mongodb.net/̣`
+
+// mongoose.connect(mongoDB, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true 
+// })
+
+// const db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'Connection error:'))
+
+// const authorSchema = new mongoose.Schema({
+//   // "id": 100,
+//   name: String,
+//   born: Date,
+//   died: Date,
+//   biography: String,
+//   website: [  {LinkText: String, url: String} ],
+//   gender: String,
+//   ethnicity: String,
+//   origin: String,
+//   // texts: [ 1000 ]
+// })
+// const Author = mongoose.model('Author', authorSchema)
+
+// Author.find((err, Authors)=> {
+//   if (err) return console.error(err)
+//   console.log(Authors)
+// })
+
+// db.once('open', ()=> {
+//   console.log('we are in')
+// })
 
 const router = express.Router();
 
