@@ -1,6 +1,8 @@
 require('dotenv').config()
 const express = require('express');
 const cors = require('cors');
+const models = require('./models');
+
 const app = express();
 
 // Middleware
@@ -16,7 +18,7 @@ if(process.env.NODE_ENV === 'production') {
     // Set the static folder
     app.use(express.static(__dirname + '/public'));
 
-    // Handle the SPA
+    // Handle the SPAdefault
     app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
 }
 
