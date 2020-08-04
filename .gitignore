@@ -3,9 +3,6 @@ node_modules
 /dist
 /archive
 
-/tests/e2e/videos/
-/tests/e2e/screenshots/
-
 # local env files
 .env
 .env.local
@@ -18,10 +15,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
+.editorconfig
+.code-workspace
 .vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+

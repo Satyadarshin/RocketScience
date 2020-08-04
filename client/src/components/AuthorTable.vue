@@ -29,7 +29,7 @@
             </md-table-row>
             <md-table-row 
                 v-for="author in resultQuery"
-                :key="author.id"
+                :key="author._id"
                 itemscope itemtype="http://schema.org/author"
             >
                 <md-table-cell><router-link :to="'/authors/' + lastFirstLastNameURL(author.name)">{{ author.name }}</router-link></md-table-cell>

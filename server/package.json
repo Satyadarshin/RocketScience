@@ -1,0 +1,21 @@
+{
+  "name": "rocketscience_vue_express",
+  "version": "1.0.0",
+  "description": "Full stack Vue and Express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Satyadarshin Perry",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
