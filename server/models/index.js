@@ -1,16 +1,17 @@
 const mongoose = require('mongoose');
-const Author = require('./author');
+const Authors = require('./author');
 const Text = require('./text');
 
 module.exports = {
     connectDb: function() {
-        return mongoose.connect(process.env.VUE_APP_MONGODB_CNCT, {
+        return mongoose.connect(process.env.VUE_APP_MONGODB_CNCT+'Dragon', {
             useNewUrlParser: true,
             useUnifiedTopology: true 
-        });
+        }, 
+        err => {console.log('Connect function returns: ' + err)});
     },
     models: {
-        Author, 
+        Authors, 
         Text
     }
 }

@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const authorSchema = new mongoose.Schema({
-  // "id": 100,
   name: String,
   born: Date,
   died: Date,
@@ -9,10 +8,9 @@ const authorSchema = new mongoose.Schema({
   website: [  {LinkText: String, url: String} ],
   gender: String,
   ethnicity: String,
-  origin: String,
-  // texts: [ 1000 ]   
+  origin: String,   
 });
 
-const Author = mongoose.model('Author', authorSchema);
+const Authors = mongoose.model('Author', authorSchema, 'Authors');
 
-module.exports = Author;
+module.exports = Authors;
