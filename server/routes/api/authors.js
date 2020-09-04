@@ -16,7 +16,7 @@ db.once('open', ()=> {
 // But reading various docs and articles 
 router.get('/', async (req, res) => {
   const query = req.query;
-  console.log(req.query) //Logs the query parameters: at time of writing, I get an empty object
+  console.log('Query parameter: '+req.query) //Logs the query parameters: at time of writing, I get an empty object
   try {
     res.send(await models.Authors.find(query, function (err, author) {
       if (err) return console.error(err)
