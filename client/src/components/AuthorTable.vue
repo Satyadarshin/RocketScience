@@ -36,7 +36,7 @@
                 <md-table-cell>{{ author.born | dateFormat }}</md-table-cell>
                 <md-table-cell>{{ author.died | dateFormat}}</md-table-cell>
             </md-table-row>
-            <app-pagination-switcher :paginationRange="count" :pagePosition="currentPage" @update="travesePagination" />
+            <app-pagination-switcher :paginationRange="count" :pagePosition="currentPage" @update="traversePagination" />
         </md-table>
     </div>
 </template>
@@ -79,7 +79,7 @@ export default {
         pageSwitcher() {
             const totalPageSet = this.pageCount
         },    
-        travesePagination(traverse) {
+        traversePagination(traverse) {
             this.currentPage = traverse
         }  
     },

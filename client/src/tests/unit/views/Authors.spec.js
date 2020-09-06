@@ -1,16 +1,19 @@
+/*
+ * Authors view unit test with Jest.
+ */
 import faker from 'faker';
 import Vue from 'vue';
 import { mount } from '@vue/test-utils'
-import AuthorsComponent from './Authors.vue';
+import AuthorsComponent from '@/views/Authors.vue';
 
 /**
  * As we only wish to test our Authors Component, we can 'mock' our dependencies.
  * This essentially means creating a fake version of the dependency, which we are able to specify the behaviour of.
  */
 const mockAuthors = [faker.random.word()];
-jest.mock('../services/sf-api-service.js', () => ({ fetchGenreCollection: jest.fn(x => Promise.resolve(mockAuthors)) }));
+jest.mock('@/services/sf-api-service.js', () => ({ fetchGenreCollection: jest.fn(x => Promise.resolve(mockAuthors)) }));
 
-describe('Authors Component', () => {
+describe('Authors view', () => {
 
   let wrapper;
 
@@ -29,9 +32,9 @@ describe('Authors Component', () => {
     // For every unit test there will be an expected result,
     // based on how we expect the code to behave if it is working correctly.
     const expected = 'Authors';
-    // And an actual result which we get from running the code.
+    // An actual result which we get from running the code.
     const actual = wrapper.find('h2').text();
-    // We then compare the 2 to check if the code behaves as expected.
+    // We then compare the two to check if the code behaves as expected.
     expect(actual).toEqual(expected);
   });
 

@@ -15,7 +15,7 @@
 
 <script>
 import awardTable from '@/components/AwardTable.vue'
-import sfDataService from '@/services/sf-data-service.js'
+//import sfApiService from '@/services/sf-api-service.js' TODO this now fails because of the shift to an api call 
 
 export default { 
     data() {
