@@ -3,8 +3,8 @@
  */
 import faker from 'faker';
 import Vue from 'vue';
-import { mount } from '@vue/test-utils'
-import AuthorsComponent from '@/views/Authors.vue';
+import { shallowMount } from '@vue/test-utils'
+import AuthorsView from '@/views/Authors.vue';
 
 /**
  * As we only wish to test our Authors Component, we can 'mock' our dependencies.
@@ -18,7 +18,7 @@ describe('Authors view', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = mount(AuthorsComponent, {
+    wrapper = shallowMount(AuthorsView, {
       // Props to pass in for this test
       propsData: {
         spotlightOn: '',
@@ -28,7 +28,7 @@ describe('Authors view', () => {
     })
   });
 
-  it('should display the title', () => {
+  it('Should display the main heading', () => {
     // For every unit test there will be an expected result,
     // based on how we expect the code to behave if it is working correctly.
     const expected = 'Authors';
@@ -38,7 +38,7 @@ describe('Authors view', () => {
     expect(actual).toEqual(expected);
   });
 
-  it('should fetch the authors collection', async () => {
+  it('Should fetch the authors collection', async () => {
     // In some async scenarios, `nextTick` is necessary in order for view to carry out its internal updates.
     await Vue.nextTick();
     expect(wrapper.vm.authors).toEqual(mockAuthors);
