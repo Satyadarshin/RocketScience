@@ -1,5 +1,5 @@
 <template>
-  <div class="front_page content">
+  <div class="front_page page">
     <section class="band-a">
       <h2>Science Fiction:<br>a literary genre</h2>
       <blockquote>

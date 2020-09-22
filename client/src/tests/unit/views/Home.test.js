@@ -1,20 +1,21 @@
 /*
  * Home view unit test with Jest.
  */
-// import Vue from 'vue';
 import HomeView from '@/views/Home.vue';
 import { shallowMount, createLocalVue } from '@vue/test-utils'
 import VueRouter from 'vue-router'
 
 const localVue = createLocalVue()
 localVue.use(VueRouter)
-// const router = new VueRouter()
 
 describe('Home view', () => {
 
   const wrapper = shallowMount(HomeView, {
     localVue
-    // stubs: ['router-link']
+  })
+
+  it('Snapshot', ()=> {
+    expect(wrapper).toMatchSnapshot()
   })
 
   it('Should display main heading', () => {
@@ -26,5 +27,6 @@ describe('Home view', () => {
     // We then compare the two to check if the code behaves as expected.
     expect(actual).toEqual(expected);
   });
+
 
 });

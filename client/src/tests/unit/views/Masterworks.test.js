@@ -19,6 +19,10 @@ describe('Masterworks view', () => {
     })
   });
 
+  it('Snapshot', ()=> {
+    expect(wrapper).toMatchSnapshot()
+  })
+
   it('Should display main heading', () => {
     // For every unit test there will be an expected result,
     // based on how we expect the code to behave if it is working correctly.
