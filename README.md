@@ -1,4 +1,4 @@
-# RocketScience
+# Rocket Science
 This is a full-stack Javascript SPA built on MongoDB, Express.js, Vue.js, and Node.js. It is principally a self-tutoring project, so at times the layout of user-facing content is less sophisticated than the code generating it, because that is likely where my working ground is.
 
 The presumption is that you are a professional Web developer familliar with basic CLI commands, Git, and (a framework like) Vue.js, evaluating the code as a portfolio piece. 
