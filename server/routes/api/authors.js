@@ -11,11 +11,14 @@ router.get('/', async (req, res) => {
 });
 
 async function loadAuthorsCollection() {
-  const client = await mongodb.MongoClient.connect( process.env.VUE_APP_MONGODB_CNCT, {
+  const client = await mongodb.MongoClient.connect( process.env.MONGO_URL, {
     useNewUrlParser: true,
-    useUnifiedTopology: true 
+    useUnifiedTopology: true
   });
-  return client.db('Dragon').collection('Authors');
+  const authors = client.db('Dragon').collection('Authors');
+  return await authors.find().toArray();
 }
 
-module.exports = router;
+
+module.exports.router = router;
+module.exports.loadAuthorsCollection = loadAuthorsCollection;
