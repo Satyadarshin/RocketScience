@@ -1,6 +1,7 @@
 const { MongoClient } = require('mongodb');
 const faker = require('faker');
-const authorsApi = require('./authors');
+const request = require('supertest');
+const app = require('../../app');
 
 describe('Authors API', () => {
 
@@ -22,13 +23,41 @@ describe('Authors API', () => {
 
   describe('GET /authors/', () => {
 
+    let mockAuthors;
+
+    beforeEach(() => {
+      mockAuthors = [
+        { name: faker.random.word(), _id: faker.random.alphaNumeric(15) },
+        { name: faker.random.word(), _id: faker.random.alphaNumeric(15) },
+      ];
+    });
+
     it('should fetch the authors collection from the database', async () => {
       const authors = db.collection('Authors');
-      const mockAuthor = { name: faker.random.word() };
-      authors.insertOne(mockAuthor);
+      authors.insertMany(mockAuthors);
 
-      const fetchedAuthors = await authorsApi.loadAuthorsCollection();
-      await expect(fetchedAuthors).toEqual([mockAuthor]);
+      return request(app)
+        .get('/api/authors')
+        .set('Accept', 'application/json')
+        .expect(200)
+        .then(response => {
+            expect(response.body).toEqual(mockAuthors);
+        });
+    });
+
+    it('should fetch the authors which match the given query if a query is supplied', async () => {
+      const mockQuery = { name: mockAuthors[0].name };
+      const authors = db.collection('Authors');
+      authors.insertMany(mockAuthors);
+
+      return request(app)
+        .get('/api/authors')
+        .query(mockQuery)
+        .set('Accept', 'application/json')
+        .expect(200)
+        .then(response => {
+            expect(response.body).toEqual([mockAuthors[0]]);
+        });
     });
   });
 });
